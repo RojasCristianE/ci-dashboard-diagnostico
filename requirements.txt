@@ -1,0 +1,8 @@
+# Pipeline de Diagnóstico de Perfil Tecnológico — Hackathon Nicaragua 2026
+# Centro de Innovación — INATEC
+pandas>=2.2.0
+numpy>=1.26.0
+matplotlib>=3.9.0
+seaborn>=0.13.0
+squarify>=0.4.4
+sqlmodel>=0.0.19
