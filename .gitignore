@@ -5,3 +5,4 @@ data/respuestas.csv
 outputs/llm_context/
 .DS_Store
 .vscode/
+data/mentor_observations.json
