@@ -1,8 +1,60 @@
 {
   "metadata": {
-    "generated_at": "2026-08-10T16:08:22.435760",
+    "generated_at": "2026-08-11T22:11:17.964433",
     "total_teams": 24,
-    "total_protagonists": 85
+    "total_protagonists": 85,
+    "total_sessions": 23,
+    "intelligence_model": "RAND/CI-Nicaragua v2.7"
+  },
+  "macro_analytics": {
+    "study_center_type": {
+      "Universidad Pública": 58,
+      "Centro Tecnológico (INATEC)": 9,
+      "Universidad Privada": 18
+    },
+    "dept_distribution": {
+      "Nueva Segovia": 2,
+      "Managua": 45,
+      "Carazo": 4,
+      "León": 3,
+      "Masaya": 4,
+      "Chontales": 11,
+      "Boaco": 1,
+      "Rivas": 1,
+      "Granada": 6,
+      "Chinandega": 2,
+      "Madriz": 2,
+      "Estelí": 1,
+      "RACCN": 3
+    },
+    "git_usage": {
+      "Sí, lo uso en todos mis proyectos.": 42,
+      "Conozco lo básico, pero no lo uso siempre.": 21,
+      "No, guardo mis archivos de forma manual.": 22
+    },
+    "deploy_experience": {
+      "Sí, al menos una vez.": 20,
+      "No, nunca he pasado de la fase local/prototipo.": 49,
+      "Sí, varias veces.": 16
+    },
+    "team_cohesion": {
+      "No, nunca.": 10,
+      "Sí, estoy acostumbrado a equipos multidisciplinarios.": 52,
+      "Muy poco, casi siempre trabajo solo o con gente de mi misma carrera.": 23
+    },
+    "tech_curiosity": {
+      "🤖 Robótica, Internet de las Cosas (IoT) o Electrónica básica.": 17,
+      "🛡️ Ciberseguridad y Hacking Ético.": 28,
+      "📊 Análisis de Datos Avanzado.": 20,
+      "🎮 Desarrollo de Videojuegos (Unity, Unreal).": 18,
+      "Todos las opciones me los desarrollo de videojuegos": 1,
+      "Desarrollo web ": 1
+    }
+  },
+  "executive_summary": {
+    "critical_risk_teams": 0,
+    "teams_missing_backend": 7,
+    "high_trl_teams": 0
   },
   "teams": [
     {
@@ -10,42 +62,93 @@
       "team_name": "Asavexi",
       "project_name": "Mecani",
       "description": "Mecani es una aplicación móvil que funciona como el primer ecosistema digital para el sector automotriz en Nicaragua. La plataforma conecta a conductores en situación de emergencia con talleres mecánicos verificados mediante un 'Radar de Emergencia' que opera con subastas en tiempo real. Además, ofrece un 'Garaje Virtual' para que el usuario gestione el historial y los gastos de su vehículo.",
-      "metrics": {
-        "member_count": 5,
-        "skill_averages": {
-          "programming": 3.2,
-          "infra_db": 2.6,
-          "design": 2.0,
-          "ai": 4.0,
-          "english": 3.2
+      "strategic_metrics": {
+        "trl": 2.8,
+        "ori": {
+          "score": 20.0,
+          "level": "LOW",
+          "components": {
+            "logistic": 8.0,
+            "collab": 56.0,
+            "structural": 0.0
+          }
         },
-        "role_distribution": {
-          "frontend": 1,
-          "backend": 1,
-          "pm_leadership": 1,
-          "marketing": 1,
-          "ux_ui": 1
+        "role_gaps": [],
+        "member_count": 5,
+        "has_senior_dev": true
+      },
+      "qualitative_profile": {
+        "academic_origin": "Universidad Pública",
+        "learning_style": "Autosuficiente (Digital/IA)",
+        "territorial_index": "Distribuido",
+        "autonomy_score": 2.96,
+        "cohesion_score": 1.4,
+        "attendance_score": 1.09,
+        "all_institutions": [
+          "Universidad Pública"
+        ],
+        "all_departments": [
+          "Managua",
+          "Carazo",
+          "Masaya",
+          "León"
+        ]
+      },
+      "averages": {
+        "skill_programming": 3.2,
+        "skill_infra_db": 2.6,
+        "skill_design": 2.0,
+        "skill_ai": 4.0,
+        "english_level": 3.2
+      },
+      "dispersion": {
+        "skill_programming": {
+          "floor": 1,
+          "std": 1.33
+        },
+        "skill_infra_db": {
+          "floor": 1,
+          "std": 1.36
+        },
+        "skill_design": {
+          "floor": 0,
+          "std": 1.9
+        },
+        "skill_ai": {
+          "floor": 3,
+          "std": 0.63
+        },
+        "english_level": {
+          "floor": 1,
+          "std": 1.33
         }
+      },
+      "role_distribution": {
+        "frontend": 1,
+        "backend": 1,
+        "pm_leadership": 1,
+        "marketing": 1,
+        "ux_ui": 1
       },
       "members": [
         {
           "id": 6,
           "full_name": "Carlos Eduardo Torres Manzanares",
           "email": "charlyst23dv@gmail.com",
-          "timestamp": "23/5/2026 15:16:58",
-          "context": {
-            "residence_dept": "Managua",
-            "study_center_type": "Universidad Pública",
-            "career_area": "tech_systems",
-            "main_role": "frontend",
-            "has_equipment": "Sí, tengo PC/Laptop y buen internet."
-          },
+          "role": "frontend",
+          "dept": "Managua",
+          "career": "tech_systems",
+          "institution": "Universidad Pública",
           "skills": {
             "programming": 5,
             "infra_db": 4,
             "design": 0,
             "ai": 4,
             "english": 4
+          },
+          "flags": {
+            "no_equipment": false,
+            "low_time": false
           },
           "qualitative": {
             "learning_method": "🎥 Autodidacta vía YouTube / Tutoriales web.",
@@ -55,31 +158,28 @@
             "collab_experience": "Muy poco, casi siempre trabajo solo o con gente de mi misma carrera.",
             "curiosity_tech": "📊 Análisis de Datos Avanzado.",
             "weekly_hours": "Entre 10 y 20 horas a la semana.",
-            "attendance_score": 2.83,
-            "attendance_sessions": 13,
-            "attendance_total_sessions": 23,
-            "attendance_sessions_general": 10,
-            "attendance_sessions_11": 3
+            "autonomy_score": 4.8,
+            "attendance_score": 1.09
           }
         },
         {
           "id": 42,
           "full_name": "Carlos Eduardo Alfaro Sanchez",
           "email": "carloseduardoalfarosanchez@gmail.com",
-          "timestamp": "25/5/2026 20:12:47",
-          "context": {
-            "residence_dept": "Managua",
-            "study_center_type": "Universidad Pública",
-            "career_area": "tech_systems",
-            "main_role": "backend",
-            "has_equipment": "Sí, tengo PC/Laptop y buen internet."
-          },
+          "role": "backend",
+          "dept": "Managua",
+          "career": "tech_systems",
+          "institution": "Universidad Pública",
           "skills": {
             "programming": 4,
             "infra_db": 3,
             "design": 0,
             "ai": 4,
             "english": 5
+          },
+          "flags": {
+            "no_equipment": false,
+            "low_time": false
           },
           "qualitative": {
             "learning_method": "🏫 Clases formales en mi Universidad / Centro Técnico.",
@@ -89,31 +189,28 @@
             "collab_experience": "Muy poco, casi siempre trabajo solo o con gente de mi misma carrera.",
             "curiosity_tech": "🎮 Desarrollo de Videojuegos (Unity, Unreal).",
             "weekly_hours": "Entre 5 y 10 horas a la semana.",
-            "attendance_score": 2.83,
-            "attendance_sessions": 13,
-            "attendance_total_sessions": 23,
-            "attendance_sessions_general": 10,
-            "attendance_sessions_11": 3
+            "autonomy_score": 3.05,
+            "attendance_score": 1.09
           }
         },
         {
           "id": 43,
           "full_name": "Yasser Yiosvany Rugama Matamoros ",
           "email": "yassrugama4@gmail.com",
-          "timestamp": "25/5/2026 20:53:35",
-          "context": {
-            "residence_dept": "León",
-            "study_center_type": "Universidad Pública",
-            "career_area": "tech_systems",
-            "main_role": "pm_leadership",
-            "has_equipment": "Sí, tengo PC/Laptop y buen internet."
-          },
+          "role": "pm_leadership",
+          "dept": "León",
+          "career": "tech_systems",
+          "institution": "Universidad Pública",
           "skills": {
             "programming": 3,
             "infra_db": 1,
             "design": 2,
             "ai": 3,
             "english": 3
+          },
+          "flags": {
+            "no_equipment": false,
+            "low_time": false
           },
           "qualitative": {
             "learning_method": "🎥 Autodidacta vía YouTube / Tutoriales web.",
@@ -123,31 +220,28 @@
             "collab_experience": "Sí, estoy acostumbrado a equipos multidisciplinarios.",
             "curiosity_tech": "🛡️ Ciberseguridad y Hacking Ético.",
             "weekly_hours": "Entre 5 y 10 horas a la semana.",
-            "attendance_score": 1.74,
-            "attendance_sessions": 8,
-            "attendance_total_sessions": 23,
-            "attendance_sessions_general": 7,
-            "attendance_sessions_11": 1
+            "autonomy_score": 3.35,
+            "attendance_score": 1.09
           }
         },
         {
           "id": 44,
           "full_name": "María Carolina Reyes Rivera",
           "email": "carolinareyesrivera22@gmail.com",
-          "timestamp": "25/5/2026 20:58:08",
-          "context": {
-            "residence_dept": "Carazo",
-            "study_center_type": "Universidad Pública",
-            "career_area": "tech_systems",
-            "main_role": "marketing",
-            "has_equipment": "Tengo PC/Laptop, pero el internet es limitado/inestable."
-          },
+          "role": "marketing",
+          "dept": "Carazo",
+          "career": "tech_systems",
+          "institution": "Universidad Pública",
           "skills": {
             "programming": 3,
             "infra_db": 4,
             "design": 3,
             "ai": 4,
             "english": 3
+          },
+          "flags": {
+            "no_equipment": false,
+            "low_time": false
           },
           "qualitative": {
             "learning_method": "🏫 Clases formales en mi Universidad / Centro Técnico.",
@@ -157,31 +251,28 @@
             "collab_experience": "Muy poco, casi siempre trabajo solo o con gente de mi misma carrera.",
             "curiosity_tech": "📊 Análisis de Datos Avanzado.",
             "weekly_hours": "Entre 5 y 10 horas a la semana.",
-            "attendance_score": 0.0,
-            "attendance_sessions": 0,
-            "attendance_total_sessions": 23,
-            "attendance_sessions_general": 0,
-            "attendance_sessions_11": 0
+            "autonomy_score": 3.05,
+            "attendance_score": 1.09
           }
         },
         {
           "id": 61,
           "full_name": "Gabriela Estephanía Calero Rosales ",
           "email": "gabrielacal3r0@gmail.com",
-          "timestamp": "29/5/2026 12:06:20",
-          "context": {
-            "residence_dept": "Masaya",
-            "study_center_type": "Universidad Pública",
-            "career_area": "design",
-            "main_role": "ux_ui",
-            "has_equipment": "Tengo PC/Laptop, pero el internet es limitado/inestable."
-          },
+          "role": "ux_ui",
+          "dept": "Masaya",
+          "career": "design",
+          "institution": "Universidad Pública",
           "skills": {
             "programming": 1,
             "infra_db": 1,
             "design": 5,
             "ai": 5,
             "english": 1
+          },
+          "flags": {
+            "no_equipment": false,
+            "low_time": true
           },
           "qualitative": {
             "learning_method": "🏫 Clases formales en mi Universidad / Centro Técnico.",
@@ -191,73 +282,136 @@
             "collab_experience": "Muy poco, casi siempre trabajo solo o con gente de mi misma carrera.",
             "curiosity_tech": "Desarrollo web ",
             "weekly_hours": "Menos de 5 horas a la semana.",
-            "attendance_score": 0.0,
-            "attendance_sessions": 0,
-            "attendance_total_sessions": 23,
-            "attendance_sessions_general": 0,
-            "attendance_sessions_11": 0
+            "autonomy_score": 0.55,
+            "attendance_score": 1.09
           }
         }
-      ],
-      "qualitative_profile": {
-        "attendance_score": 1.48
-      }
+      ]
     },
     {
       "id": 2,
       "team_name": "Bite care",
       "project_name": "Manos Granadinas",
       "description": "Un portal para el turista local y extranjero. El proyecto \"Manos Granadinas\" consiste en el diseño y desarrollo de un sitio web informativo orientado a la transformación digital de los sectores de artesanía, textilería y gastronomía típica en Granada, Nicaragua. La iniciativa surge como respuesta a la brecha tecnológica que afecta a los microproductores locales, ofreciéndoles una vitrina digital gratuita para dar a conocer su trabajo. A través de la integración de estos tres rubros identitarios en una sola plataforma, se pretende potenciar la economía local, rescatar el patrimonio cultural inmaterial de la ciudad y fomentar un consumo consciente basado en el valor del esfuerzo humano.",
-      "metrics": {
+      "strategic_metrics": {
+        "trl": 0,
+        "ori": {
+          "score": 0,
+          "level": "NO_DATA"
+        },
+        "role_gaps": [
+          "Missing All Roles / Pending Form"
+        ],
         "member_count": 0,
-        "skill_averages": {},
-        "role_distribution": {}
+        "has_senior_dev": false
       },
-      "members": [],
       "qualitative_profile": {
-        "attendance_score": 0
-      }
+        "academic_origin": "N/A",
+        "learning_style": "N/A",
+        "territorial_index": "N/A",
+        "attendance_score": 0.22,
+        "all_institutions": [],
+        "all_departments": []
+      },
+      "averages": {
+        "skill_programming": 0,
+        "skill_infra_db": 0,
+        "skill_design": 0,
+        "skill_ai": 0,
+        "english_level": 0
+      },
+      "role_distribution": {},
+      "members": []
     },
     {
       "id": 3,
       "team_name": "Chontal Noxus",
       "project_name": "Kachiing!",
       "description": "Kachiing es una plataforma web omnicanal para pymes que unifica punto de venta, inventario y tienda online. Además de gestionar su negocio desde un solo dashboard, los comercios se integran automáticamente a nuestro Marketplace central, donde los clientes pueden descubrir productos de múltiples tiendas, comprar con stock sincronizado y chatear directamente con los vendedores.",
-      "metrics": {
-        "member_count": 5,
-        "skill_averages": {
-          "programming": 2.6,
-          "infra_db": 2.6,
-          "design": 3.0,
-          "ai": 3.8,
-          "english": 2.8
+      "strategic_metrics": {
+        "trl": 3.08,
+        "ori": {
+          "score": 18.2,
+          "level": "LOW",
+          "components": {
+            "logistic": 20.0,
+            "collab": 34.0,
+            "structural": 0.0
+          }
         },
-        "role_distribution": {
-          "ux_ui": 2,
-          "backend": 1,
-          "frontend": 1,
-          "marketing": 1
+        "role_gaps": [],
+        "member_count": 5,
+        "has_senior_dev": true
+      },
+      "qualitative_profile": {
+        "academic_origin": "Universidad Pública",
+        "learning_style": "Tradicional (Académico)",
+        "territorial_index": "Centralizado (Chontales)",
+        "autonomy_score": 2.93,
+        "cohesion_score": 5.0,
+        "attendance_score": 0.0,
+        "all_institutions": [
+          "Universidad Pública",
+          "Centro Tecnológico (INATEC)"
+        ],
+        "all_departments": [
+          "Chontales"
+        ]
+      },
+      "averages": {
+        "skill_programming": 2.6,
+        "skill_infra_db": 2.6,
+        "skill_design": 3.0,
+        "skill_ai": 3.8,
+        "english_level": 2.8
+      },
+      "dispersion": {
+        "skill_programming": {
+          "floor": 0,
+          "std": 1.74
+        },
+        "skill_infra_db": {
+          "floor": 0,
+          "std": 1.74
+        },
+        "skill_design": {
+          "floor": 2,
+          "std": 1.1
+        },
+        "skill_ai": {
+          "floor": 3,
+          "std": 0.75
+        },
+        "english_level": {
+          "floor": 1,
+          "std": 1.33
         }
+      },
+      "role_distribution": {
+        "ux_ui": 2,
+        "backend": 1,
+        "frontend": 1,
+        "marketing": 1
       },
       "members": [
         {
           "id": 9,
           "full_name": "Amelia Sarai Delgado Malespin",
           "email": "ameliasarai595@gmail.com",
-          "timestamp": "23/5/2026 15:17:46",
-          "context": {
-            "residence_dept": "Chontales",
-            "study_center_type": "Centro Tecnológico (INATEC)",
-            "career_area": "design",
-            "main_role": "ux_ui",
-            "has_equipment": "Tengo PC/Laptop, pero el internet es limitado/inestable."
-          },
+          "role": "ux_ui",
+          "dept": "Chontales",
+          "career": "design",
+          "institution": "Centro Tecnológico (INATEC)",
           "skills": {
             "programming": 2,
             "infra_db": 2,
             "design": 3,
             "ai": 3,
             "english": 2
+          },
+          "flags": {
+            "no_equipment": false,
+            "low_time": false
           },
           "qualitative": {
             "learning_method": "🏫 Clases formales en mi Universidad / Centro Técnico.",
@@ -267,31 +421,28 @@
             "collab_experience": "Sí, estoy acostumbrado a equipos multidisciplinarios.",
             "curiosity_tech": "🎮 Desarrollo de Videojuegos (Unity, Unreal).",
             "weekly_hours": "Entre 5 y 10 horas a la semana.",
-            "attendance_score": 0.0,
-            "attendance_sessions": 0,
-            "attendance_total_sessions": 23,
-            "attendance_sessions_general": 0,
-            "attendance_sessions_11": 0
+            "autonomy_score": 2.45,
+            "attendance_score": 0.0
           }
         },
         {
           "id": 14,
           "full_name": "Oscar Javier Marín Robleto ",
           "email": "oscar.javier.marin.robleto@gmail.com",
-          "timestamp": "23/5/2026 15:19:20",
-          "context": {
-            "residence_dept": "Chontales",
-            "study_center_type": "Universidad Pública",
-            "career_area": "tech_systems",
-            "main_role": "backend",
-            "has_equipment": "Sí, tengo PC/Laptop y buen internet."
-          },
+          "role": "backend",
+          "dept": "Chontales",
+          "career": "tech_systems",
+          "institution": "Universidad Pública",
           "skills": {
             "programming": 5,
             "infra_db": 5,
             "design": 2,
             "ai": 5,
             "english": 5
+          },
+          "flags": {
+            "no_equipment": false,
+            "low_time": false
           },
           "qualitative": {
             "learning_method": "🎥 Autodidacta vía YouTube / Tutoriales web.",
@@ -301,31 +452,28 @@
             "collab_experience": "Sí, estoy acostumbrado a equipos multidisciplinarios.",
             "curiosity_tech": "📊 Análisis de Datos Avanzado.",
             "weekly_hours": "Entre 5 y 10 horas a la semana.",
-            "attendance_score": 0.43,
-            "attendance_sessions": 2,
-            "attendance_total_sessions": 23,
-            "attendance_sessions_general": 0,
-            "attendance_sessions_11": 2
+            "autonomy_score": 5.0,
+            "attendance_score": 0.0
           }
         },
         {
           "id": 18,
           "full_name": "Katherine Del Carmen Cundano Morales ",
           "email": "cundanok9@gmail.com",
-          "timestamp": "23/5/2026 15:29:12",
-          "context": {
-            "residence_dept": "Chontales",
-            "study_center_type": "Centro Tecnológico (INATEC)",
-            "career_area": "design",
-            "main_role": "frontend",
-            "has_equipment": "Sí, tengo PC/Laptop y buen internet."
-          },
+          "role": "frontend",
+          "dept": "Chontales",
+          "career": "design",
+          "institution": "Centro Tecnológico (INATEC)",
           "skills": {
             "programming": 4,
             "infra_db": 4,
             "design": 3,
             "ai": 4,
             "english": 3
+          },
+          "flags": {
+            "no_equipment": false,
+            "low_time": false
           },
           "qualitative": {
             "learning_method": "🎥 Autodidacta vía YouTube / Tutoriales web.",
@@ -335,31 +483,28 @@
             "collab_experience": "Sí, estoy acostumbrado a equipos multidisciplinarios.",
             "curiosity_tech": "📊 Análisis de Datos Avanzado.",
             "weekly_hours": "Entre 5 y 10 horas a la semana.",
-            "attendance_score": 0.87,
-            "attendance_sessions": 4,
-            "attendance_total_sessions": 23,
-            "attendance_sessions_general": 2,
-            "attendance_sessions_11": 2
+            "autonomy_score": 4.6,
+            "attendance_score": 0.0
           }
         },
         {
           "id": 24,
           "full_name": "Edward Manuel Blandón Tablada ",
           "email": "edwardblast81@gmail.com",
-          "timestamp": "23/5/2026 16:04:39",
-          "context": {
-            "residence_dept": "Chontales",
-            "study_center_type": "Centro Tecnológico (INATEC)",
-            "career_area": "tech_systems",
-            "main_role": "ux_ui",
-            "has_equipment": "Sí, tengo PC/Laptop y buen internet."
-          },
+          "role": "ux_ui",
+          "dept": "Chontales",
+          "career": "tech_systems",
+          "institution": "Centro Tecnológico (INATEC)",
           "skills": {
             "programming": 2,
             "infra_db": 2,
             "design": 5,
             "ai": 4,
             "english": 3
+          },
+          "flags": {
+            "no_equipment": false,
+            "low_time": true
           },
           "qualitative": {
             "learning_method": "🎥 Autodidacta vía YouTube / Tutoriales web.",
@@ -369,31 +514,28 @@
             "collab_experience": "Sí, estoy acostumbrado a equipos multidisciplinarios.",
             "curiosity_tech": "🛡️ Ciberseguridad y Hacking Ético.",
             "weekly_hours": "Menos de 5 horas a la semana.",
-            "attendance_score": 0.0,
-            "attendance_sessions": 0,
-            "attendance_total_sessions": 23,
-            "attendance_sessions_general": 0,
-            "attendance_sessions_11": 0
+            "autonomy_score": 2.45,
+            "attendance_score": 0.0
           }
         },
         {
           "id": 48,
           "full_name": "Jael Díaz",
           "email": "jaelanahiarag@gmail.com",
-          "timestamp": "26/5/2026 10:37:27",
-          "context": {
-            "residence_dept": "Chontales",
-            "study_center_type": "Centro Tecnológico (INATEC)",
-            "career_area": "design",
-            "main_role": "marketing",
-            "has_equipment": "No tengo equipo propio, dependo de laboratorios o cibercafés."
-          },
+          "role": "marketing",
+          "dept": "Chontales",
+          "career": "design",
+          "institution": "Centro Tecnológico (INATEC)",
           "skills": {
             "programming": 0,
             "infra_db": 0,
             "design": 2,
             "ai": 3,
             "english": 1
+          },
+          "flags": {
+            "no_equipment": true,
+            "low_time": false
           },
           "qualitative": {
             "learning_method": "🏫 Clases formales en mi Universidad / Centro Técnico.",
@@ -403,58 +545,100 @@
             "collab_experience": "No, nunca.",
             "curiosity_tech": "🤖 Robótica, Internet de las Cosas (IoT) o Electrónica básica.",
             "weekly_hours": "Entre 5 y 10 horas a la semana.",
-            "attendance_score": 0.0,
-            "attendance_sessions": 0,
-            "attendance_total_sessions": 23,
-            "attendance_sessions_general": 0,
-            "attendance_sessions_11": 0
+            "autonomy_score": 0.15,
+            "attendance_score": 0.0
           }
         }
-      ],
-      "qualitative_profile": {
-        "attendance_score": 0.26
-      }
+      ]
     },
     {
       "id": 4,
       "team_name": "Delta Innovation's",
       "project_name": "Roomy Asistente de Salud Virtual",
       "description": "Rommy es un proyecto que busca facilitar la información de salud para la ciudadanía nicaragüense mediante una IA de información médica, un calendario dinámico con eventos de salud y un mapa que permite encontrar dichos eventos cerca del usuario",
-      "metrics": {
-        "member_count": 5,
-        "skill_averages": {
-          "programming": 1.8,
-          "infra_db": 1.4,
-          "design": 3.4,
-          "ai": 2.8,
-          "english": 3.4
+      "strategic_metrics": {
+        "trl": 2.49,
+        "ori": {
+          "score": 23.6,
+          "level": "LOW",
+          "components": {
+            "logistic": 20.0,
+            "collab": 52.0,
+            "structural": 0.0
+          }
         },
-        "role_distribution": {
-          "frontend": 1,
-          "backend": 1,
-          "marketing": 2,
-          "ux_ui": 1
+        "role_gaps": [],
+        "member_count": 5,
+        "has_senior_dev": true
+      },
+      "qualitative_profile": {
+        "academic_origin": "Universidad Pública",
+        "learning_style": "Tradicional (Académico)",
+        "territorial_index": "Centralizado (Managua)",
+        "autonomy_score": 1.66,
+        "cohesion_score": 5.0,
+        "attendance_score": 0.0,
+        "all_institutions": [
+          "Universidad Pública"
+        ],
+        "all_departments": [
+          "Managua"
+        ]
+      },
+      "averages": {
+        "skill_programming": 1.8,
+        "skill_infra_db": 1.4,
+        "skill_design": 3.4,
+        "skill_ai": 2.8,
+        "english_level": 3.4
+      },
+      "dispersion": {
+        "skill_programming": {
+          "floor": 0,
+          "std": 1.83
+        },
+        "skill_infra_db": {
+          "floor": 0,
+          "std": 1.74
+        },
+        "skill_design": {
+          "floor": 2,
+          "std": 1.02
+        },
+        "skill_ai": {
+          "floor": 1,
+          "std": 0.98
+        },
+        "english_level": {
+          "floor": 2,
+          "std": 1.02
         }
+      },
+      "role_distribution": {
+        "frontend": 1,
+        "backend": 1,
+        "marketing": 2,
+        "ux_ui": 1
       },
       "members": [
         {
           "id": 2,
           "full_name": "Aarón Alejandro Jiménez Ramírez ",
           "email": "aaronjimenezr2004@gmail.com",
-          "timestamp": "23/5/2026 15:14:34",
-          "context": {
-            "residence_dept": "Managua",
-            "study_center_type": "Universidad Pública",
-            "career_area": "engineering",
-            "main_role": "frontend",
-            "has_equipment": "Sí, tengo PC/Laptop y buen internet."
-          },
+          "role": "frontend",
+          "dept": "Managua",
+          "career": "engineering",
+          "institution": "Universidad Pública",
           "skills": {
             "programming": 4,
             "infra_db": 3,
             "design": 4,
             "ai": 3,
             "english": 4
+          },
+          "flags": {
+            "no_equipment": false,
+            "low_time": false
           },
           "qualitative": {
             "learning_method": "🏫 Clases formales en mi Universidad / Centro Técnico.",
@@ -464,31 +648,28 @@
             "collab_experience": "Sí, estoy acostumbrado a equipos multidisciplinarios.",
             "curiosity_tech": "🛡️ Ciberseguridad y Hacking Ético.",
             "weekly_hours": "Entre 5 y 10 horas a la semana.",
-            "attendance_score": 1.09,
-            "attendance_sessions": 5,
-            "attendance_total_sessions": 23,
-            "attendance_sessions_general": 5,
-            "attendance_sessions_11": 0
+            "autonomy_score": 3.05,
+            "attendance_score": 0.0
           }
         },
         {
           "id": 53,
           "full_name": "José Carlos Torres Cortés",
           "email": "xpolargeist007x@gmail.com",
-          "timestamp": "26/5/2026 18:55:17",
-          "context": {
-            "residence_dept": "Managua",
-            "study_center_type": "Universidad Pública",
-            "career_area": "tech_systems",
-            "main_role": "backend",
-            "has_equipment": "Sí, tengo PC/Laptop y buen internet."
-          },
+          "role": "backend",
+          "dept": "Managua",
+          "career": "tech_systems",
+          "institution": "Universidad Pública",
           "skills": {
             "programming": 4,
             "infra_db": 4,
             "design": 3,
             "ai": 3,
             "english": 3
+          },
+          "flags": {
+            "no_equipment": false,
+            "low_time": false
           },
           "qualitative": {
             "learning_method": "🤖 Consultando a Inteligencias Artificiales (ChatGPT, etc).",
@@ -498,31 +679,28 @@
             "collab_experience": "Sí, estoy acostumbrado a equipos multidisciplinarios.",
             "curiosity_tech": "🎮 Desarrollo de Videojuegos (Unity, Unreal).",
             "weekly_hours": "Entre 10 y 20 horas a la semana.",
-            "attendance_score": 1.3,
-            "attendance_sessions": 6,
-            "attendance_total_sessions": 23,
-            "attendance_sessions_general": 6,
-            "attendance_sessions_11": 0
+            "autonomy_score": 4.6,
+            "attendance_score": 0.0
           }
         },
         {
           "id": 63,
           "full_name": "Melissa Nayan Espinoza Robleto",
           "email": "melejcain@gmail.com",
-          "timestamp": "29/5/2026 12:52:45",
-          "context": {
-            "residence_dept": "Managua",
-            "study_center_type": "Universidad Pública",
-            "career_area": "design",
-            "main_role": "marketing",
-            "has_equipment": "Solo utilizo mi teléfono móvil / Tablet."
-          },
+          "role": "marketing",
+          "dept": "Managua",
+          "career": "design",
+          "institution": "Universidad Pública",
           "skills": {
             "programming": 1,
             "infra_db": 0,
             "design": 5,
             "ai": 4,
             "english": 5
+          },
+          "flags": {
+            "no_equipment": true,
+            "low_time": false
           },
           "qualitative": {
             "learning_method": "🎥 Autodidacta vía YouTube / Tutoriales web.",
@@ -532,31 +710,28 @@
             "collab_experience": "Sí, estoy acostumbrado a equipos multidisciplinarios.",
             "curiosity_tech": "🎮 Desarrollo de Videojuegos (Unity, Unreal).",
             "weekly_hours": "Entre 5 y 10 horas a la semana.",
-            "attendance_score": 0.43,
-            "attendance_sessions": 2,
-            "attendance_total_sessions": 23,
-            "attendance_sessions_general": 2,
-            "attendance_sessions_11": 0
+            "autonomy_score": 0.35,
+            "attendance_score": 0.0
           }
         },
         {
           "id": 66,
           "full_name": "Roberto Jesús Escobar Rodriguez",
           "email": "rototoguezz@gmail.com",
-          "timestamp": "29/5/2026 20:24:49",
-          "context": {
-            "residence_dept": "Managua",
-            "study_center_type": "Universidad Pública",
-            "career_area": "design",
-            "main_role": "ux_ui",
-            "has_equipment": "Sí, tengo PC/Laptop y buen internet."
-          },
+          "role": "ux_ui",
+          "dept": "Managua",
+          "career": "design",
+          "institution": "Universidad Pública",
           "skills": {
             "programming": 0,
             "infra_db": 0,
             "design": 3,
             "ai": 1,
             "english": 3
+          },
+          "flags": {
+            "no_equipment": false,
+            "low_time": false
           },
           "qualitative": {
             "learning_method": "🏫 Clases formales en mi Universidad / Centro Técnico.",
@@ -566,31 +741,28 @@
             "collab_experience": "Sí, estoy acostumbrado a equipos multidisciplinarios.",
             "curiosity_tech": "🎮 Desarrollo de Videojuegos (Unity, Unreal).",
             "weekly_hours": "Entre 5 y 10 horas a la semana.",
-            "attendance_score": 0.0,
-            "attendance_sessions": 0,
-            "attendance_total_sessions": 23,
-            "attendance_sessions_general": 0,
-            "attendance_sessions_11": 0
+            "autonomy_score": 0.15,
+            "attendance_score": 0.0
           }
         },
         {
           "id": 67,
           "full_name": "Uri Merari Castillo Henríquez ",
           "email": "m3r.4r1cast27@gmail.com",
-          "timestamp": "29/5/2026 20:26:01",
-          "context": {
-            "residence_dept": "Managua",
-            "study_center_type": "Universidad Pública",
-            "career_area": "design",
-            "main_role": "marketing",
-            "has_equipment": "Sí, tengo PC/Laptop y buen internet."
-          },
+          "role": "marketing",
+          "dept": "Managua",
+          "career": "design",
+          "institution": "Universidad Pública",
           "skills": {
             "programming": 0,
             "infra_db": 0,
             "design": 2,
             "ai": 3,
             "english": 2
+          },
+          "flags": {
+            "no_equipment": false,
+            "low_time": true
           },
           "qualitative": {
             "learning_method": "🤖 Consultando a Inteligencias Artificiales (ChatGPT, etc).",
@@ -600,58 +772,100 @@
             "collab_experience": "Sí, estoy acostumbrado a equipos multidisciplinarios.",
             "curiosity_tech": "🎮 Desarrollo de Videojuegos (Unity, Unreal).",
             "weekly_hours": "Menos de 5 horas a la semana.",
-            "attendance_score": 0.0,
-            "attendance_sessions": 0,
-            "attendance_total_sessions": 23,
-            "attendance_sessions_general": 0,
-            "attendance_sessions_11": 0
+            "autonomy_score": 0.15,
+            "attendance_score": 0.0
           }
         }
-      ],
-      "qualitative_profile": {
-        "attendance_score": 0.56
-      }
+      ]
     },
     {
       "id": 5,
       "team_name": "EsceNicApp",
       "project_name": "EsceNicApp",
       "description": "Cartelera cultural centralizada El proyecto se basa en tres soluciones digitales\n- Landing web - Sección de cartelera \n- aplicación móvil multiplataforma \n- Portal de administración y gestión de eventos para organizaciones culturales",
-      "metrics": {
-        "member_count": 4,
-        "skill_averages": {
-          "programming": 2.5,
-          "infra_db": 2.5,
-          "design": 3.75,
-          "ai": 4.25,
-          "english": 4.5
+      "strategic_metrics": {
+        "trl": 3.34,
+        "ori": {
+          "score": 21.2,
+          "level": "LOW",
+          "components": {
+            "logistic": 10.0,
+            "collab": 57.5,
+            "structural": 0.0
+          }
         },
-        "role_distribution": {
-          "marketing": 1,
-          "data_ai": 1,
-          "backend": 1,
-          "ux_ui": 1
+        "role_gaps": [],
+        "member_count": 4,
+        "has_senior_dev": true
+      },
+      "qualitative_profile": {
+        "academic_origin": "Universidad Privada",
+        "learning_style": "Tradicional (Académico)",
+        "territorial_index": "Centralizado (Managua)",
+        "autonomy_score": 2.5,
+        "cohesion_score": 5.0,
+        "attendance_score": 1.09,
+        "all_institutions": [
+          "Universidad Privada"
+        ],
+        "all_departments": [
+          "Managua"
+        ]
+      },
+      "averages": {
+        "skill_programming": 2.5,
+        "skill_infra_db": 2.5,
+        "skill_design": 3.75,
+        "skill_ai": 4.25,
+        "english_level": 4.5
+      },
+      "dispersion": {
+        "skill_programming": {
+          "floor": 0,
+          "std": 1.66
+        },
+        "skill_infra_db": {
+          "floor": 0,
+          "std": 1.5
+        },
+        "skill_design": {
+          "floor": 3,
+          "std": 0.83
+        },
+        "skill_ai": {
+          "floor": 3,
+          "std": 0.83
+        },
+        "english_level": {
+          "floor": 4,
+          "std": 0.5
         }
+      },
+      "role_distribution": {
+        "marketing": 1,
+        "data_ai": 1,
+        "backend": 1,
+        "ux_ui": 1
       },
       "members": [
         {
           "id": 37,
           "full_name": "Adriana Priscila Larios Sequeira ",
           "email": "priscilitasequeira@gmail.com",
-          "timestamp": "25/5/2026 11:10:23",
-          "context": {
-            "residence_dept": "Managua",
-            "study_center_type": "Universidad Privada",
-            "career_area": "communication",
-            "main_role": "marketing",
-            "has_equipment": "Sí, tengo PC/Laptop y buen internet."
-          },
+          "role": "marketing",
+          "dept": "Managua",
+          "career": "communication",
+          "institution": "Universidad Privada",
           "skills": {
             "programming": 0,
             "infra_db": 0,
             "design": 3,
             "ai": 5,
             "english": 4
+          },
+          "flags": {
+            "no_equipment": false,
+            "low_time": true
           },
           "qualitative": {
             "learning_method": "🎥 Autodidacta vía YouTube / Tutoriales web.",
@@ -661,31 +875,28 @@
             "collab_experience": "Sí, estoy acostumbrado a equipos multidisciplinarios.",
             "curiosity_tech": "🎮 Desarrollo de Videojuegos (Unity, Unreal).",
             "weekly_hours": "Menos de 5 horas a la semana.",
-            "attendance_score": 0.0,
-            "attendance_sessions": 0,
-            "attendance_total_sessions": 23,
-            "attendance_sessions_general": 0,
-            "attendance_sessions_11": 0
+            "autonomy_score": 0.15,
+            "attendance_score": 1.09
           }
         },
         {
           "id": 72,
           "full_name": "Franco Xavier Aguilera Ortez",
           "email": "fxaaguilera@uamv.edu.ni",
-          "timestamp": "1/6/2026 10:19:28",
-          "context": {
-            "residence_dept": "Managua",
-            "study_center_type": "Universidad Privada",
-            "career_area": "tech_systems",
-            "main_role": "data_ai",
-            "has_equipment": "Sí, tengo PC/Laptop y buen internet."
-          },
+          "role": "data_ai",
+          "dept": "Managua",
+          "career": "tech_systems",
+          "institution": "Universidad Privada",
           "skills": {
             "programming": 2,
             "infra_db": 3,
             "design": 3,
             "ai": 3,
             "english": 4
+          },
+          "flags": {
+            "no_equipment": false,
+            "low_time": false
           },
           "qualitative": {
             "learning_method": "🤖 Consultando a Inteligencias Artificiales (ChatGPT, etc).",
@@ -695,31 +906,28 @@
             "collab_experience": "Muy poco, casi siempre trabajo solo o con gente de mi misma carrera.",
             "curiosity_tech": "🛡️ Ciberseguridad y Hacking Ético.",
             "weekly_hours": "Entre 10 y 20 horas a la semana.",
-            "attendance_score": 1.3,
-            "attendance_sessions": 6,
-            "attendance_total_sessions": 23,
-            "attendance_sessions_general": 4,
-            "attendance_sessions_11": 2
+            "autonomy_score": 2.65,
+            "attendance_score": 1.09
           }
         },
         {
           "id": 82,
           "full_name": "David Joel Sánchez Acevedo ",
           "email": "dsanchez060322@gmail.com",
-          "timestamp": "3/6/2026 10:52:07",
-          "context": {
-            "residence_dept": "Managua",
-            "study_center_type": "Universidad Privada",
-            "career_area": "tech_systems",
-            "main_role": "backend",
-            "has_equipment": "Sí, tengo PC/Laptop y buen internet."
-          },
+          "role": "backend",
+          "dept": "Managua",
+          "career": "tech_systems",
+          "institution": "Universidad Privada",
           "skills": {
             "programming": 4,
             "infra_db": 4,
             "design": 5,
             "ai": 5,
             "english": 5
+          },
+          "flags": {
+            "no_equipment": false,
+            "low_time": false
           },
           "qualitative": {
             "learning_method": "🏫 Clases formales en mi Universidad / Centro Técnico.",
@@ -729,31 +937,28 @@
             "collab_experience": "Sí, estoy acostumbrado a equipos multidisciplinarios.",
             "curiosity_tech": "📊 Análisis de Datos Avanzado.",
             "weekly_hours": "Entre 10 y 20 horas a la semana.",
-            "attendance_score": 0.22,
-            "attendance_sessions": 1,
-            "attendance_total_sessions": 23,
-            "attendance_sessions_general": 1,
-            "attendance_sessions_11": 0
+            "autonomy_score": 4.15,
+            "attendance_score": 1.09
           }
         },
         {
           "id": 85,
           "full_name": "Andrea Johanna Duarte Guerrero",
           "email": "andreajohannaduarteguerrero@gmail.com",
-          "timestamp": "13/7/2026 14:44:59",
-          "context": {
-            "residence_dept": "Managua",
-            "study_center_type": "Universidad Privada",
-            "career_area": "engineering",
-            "main_role": "ux_ui",
-            "has_equipment": "Sí, tengo PC/Laptop y buen internet."
-          },
+          "role": "ux_ui",
+          "dept": "Managua",
+          "career": "engineering",
+          "institution": "Universidad Privada",
           "skills": {
             "programming": 4,
             "infra_db": 3,
             "design": 4,
             "ai": 4,
             "english": 5
+          },
+          "flags": {
+            "no_equipment": false,
+            "low_time": false
           },
           "qualitative": {
             "learning_method": "📜 Cursos online de pago (Udemy, Platzi, Coursera).",
@@ -763,56 +968,101 @@
             "collab_experience": "Muy poco, casi siempre trabajo solo o con gente de mi misma carrera.",
             "curiosity_tech": "📊 Análisis de Datos Avanzado.",
             "weekly_hours": "Entre 5 y 10 horas a la semana.",
-            "attendance_score": 0.0,
-            "attendance_sessions": 0,
-            "attendance_total_sessions": 23,
-            "attendance_sessions_general": 0,
-            "attendance_sessions_11": 0
+            "autonomy_score": 3.05,
+            "attendance_score": 1.09
           }
         }
-      ],
-      "qualitative_profile": {
-        "attendance_score": 0.38
-      }
+      ]
     },
     {
       "id": 6,
       "team_name": "Frintinder",
       "project_name": "Fritinder",
       "description": "Una plataforma de descubrimiento gastronómico enfocado en comidas típicas del país, basada en el modelo de \"gamificación\" que conecta a usuarios hambrientos con pequeñas y medianas empresas (PYMES) del sector informal y formal en Nicaragua. A través de una interfaz dinámica de \"deslizamiento\" (swipe), eliminamos la fatiga de decisión del usuario y brindamos a los dueños de negocios datos analíticos críticos sobre la demanda de sus productos, permitiéndoles competir en la economía digital.",
-      "metrics": {
-        "member_count": 3,
-        "skill_averages": {
-          "programming": 2.67,
-          "infra_db": 3.0,
-          "design": 2.67,
-          "ai": 3.67,
-          "english": 2.0
+      "strategic_metrics": {
+        "trl": 3.04,
+        "ori": {
+          "score": 25.5,
+          "level": "LOW",
+          "components": {
+            "logistic": 40.0,
+            "collab": 31.7,
+            "structural": 0.0
+          }
         },
-        "role_distribution": {
-          "backend": 1,
-          "frontend": 2
+        "role_gaps": [
+          "Missing Leadership/Business"
+        ],
+        "member_count": 3,
+        "has_senior_dev": true
+      },
+      "qualitative_profile": {
+        "academic_origin": "Universidad Pública",
+        "learning_style": "Autosuficiente (Digital/IA)",
+        "territorial_index": "Distribuido",
+        "autonomy_score": 3.83,
+        "cohesion_score": 2.78,
+        "attendance_score": 1.09,
+        "all_institutions": [
+          "Universidad Pública"
+        ],
+        "all_departments": [
+          "Managua",
+          "Masaya"
+        ]
+      },
+      "averages": {
+        "skill_programming": 2.67,
+        "skill_infra_db": 3.0,
+        "skill_design": 2.67,
+        "skill_ai": 3.67,
+        "english_level": 2.0
+      },
+      "dispersion": {
+        "skill_programming": {
+          "floor": 2,
+          "std": 0.47
+        },
+        "skill_infra_db": {
+          "floor": 3,
+          "std": 0.0
+        },
+        "skill_design": {
+          "floor": 2,
+          "std": 0.47
+        },
+        "skill_ai": {
+          "floor": 3,
+          "std": 0.47
+        },
+        "english_level": {
+          "floor": 2,
+          "std": 0.0
         }
+      },
+      "role_distribution": {
+        "backend": 1,
+        "frontend": 2
       },
       "members": [
         {
           "id": 45,
           "full_name": "Perfecto Tadeo Castillo",
           "email": "tadeocastle3@gmail.com",
-          "timestamp": "26/5/2026 8:55:48",
-          "context": {
-            "residence_dept": "Managua",
-            "study_center_type": "Universidad Pública",
-            "career_area": "tech_systems",
-            "main_role": "backend",
-            "has_equipment": "Sí, tengo PC/Laptop y buen internet."
-          },
+          "role": "backend",
+          "dept": "Managua",
+          "career": "tech_systems",
+          "institution": "Universidad Pública",
           "skills": {
             "programming": 3,
             "infra_db": 3,
             "design": 3,
             "ai": 4,
             "english": 2
+          },
+          "flags": {
+            "no_equipment": false,
+            "low_time": true
           },
           "qualitative": {
             "learning_method": "🎥 Autodidacta vía YouTube / Tutoriales web.",
@@ -822,31 +1072,28 @@
             "collab_experience": "Sí, estoy acostumbrado a equipos multidisciplinarios.",
             "curiosity_tech": "🛡️ Ciberseguridad y Hacking Ético.",
             "weekly_hours": "Menos de 5 horas a la semana.",
-            "attendance_score": 0.43,
-            "attendance_sessions": 2,
-            "attendance_total_sessions": 23,
-            "attendance_sessions_general": 1,
-            "attendance_sessions_11": 1
+            "autonomy_score": 4.2,
+            "attendance_score": 1.09
           }
         },
         {
           "id": 68,
           "full_name": "Jason Alejandro Calero Sánchez",
           "email": "ale.calero130700512@gmail.com",
-          "timestamp": "29/5/2026 20:49:31",
-          "context": {
-            "residence_dept": "Masaya",
-            "study_center_type": "Universidad Pública",
-            "career_area": "tech_systems",
-            "main_role": "frontend",
-            "has_equipment": "Sí, tengo PC/Laptop y buen internet."
-          },
+          "role": "frontend",
+          "dept": "Masaya",
+          "career": "tech_systems",
+          "institution": "Universidad Pública",
           "skills": {
             "programming": 2,
             "infra_db": 3,
             "design": 3,
             "ai": 3,
             "english": 2
+          },
+          "flags": {
+            "no_equipment": false,
+            "low_time": true
           },
           "qualitative": {
             "learning_method": "🎥 Autodidacta vía YouTube / Tutoriales web.",
@@ -856,31 +1103,28 @@
             "collab_experience": "Muy poco, casi siempre trabajo solo o con gente de mi misma carrera.",
             "curiosity_tech": "🛡️ Ciberseguridad y Hacking Ético.",
             "weekly_hours": "Menos de 5 horas a la semana.",
-            "attendance_score": 0.22,
-            "attendance_sessions": 1,
-            "attendance_total_sessions": 23,
-            "attendance_sessions_general": 0,
-            "attendance_sessions_11": 1
+            "autonomy_score": 3.55,
+            "attendance_score": 1.09
           }
         },
         {
           "id": 83,
           "full_name": "Junior Antonio Cortez Ramírez ",
           "email": "jr3071302@gmail.com",
-          "timestamp": "15/6/2026 17:14:50",
-          "context": {
-            "residence_dept": "Masaya",
-            "study_center_type": "Universidad Pública",
-            "career_area": "tech_systems",
-            "main_role": "frontend",
-            "has_equipment": "Sí, tengo PC/Laptop y buen internet."
-          },
+          "role": "frontend",
+          "dept": "Masaya",
+          "career": "tech_systems",
+          "institution": "Universidad Pública",
           "skills": {
             "programming": 3,
             "infra_db": 3,
             "design": 2,
             "ai": 4,
             "english": 2
+          },
+          "flags": {
+            "no_equipment": false,
+            "low_time": true
           },
           "qualitative": {
             "learning_method": "🎥 Autodidacta vía YouTube / Tutoriales web.",
@@ -890,59 +1134,102 @@
             "collab_experience": "Sí, estoy acostumbrado a equipos multidisciplinarios.",
             "curiosity_tech": "🤖 Robótica, Internet de las Cosas (IoT) o Electrónica básica.",
             "weekly_hours": "Menos de 5 horas a la semana.",
-            "attendance_score": 1.74,
-            "attendance_sessions": 8,
-            "attendance_total_sessions": 23,
-            "attendance_sessions_general": 8,
-            "attendance_sessions_11": 0
+            "autonomy_score": 3.75,
+            "attendance_score": 1.09
           }
         }
-      ],
-      "qualitative_profile": {
-        "attendance_score": 0.8
-      }
+      ]
     },
     {
       "id": 7,
       "team_name": "HatoMaster",
       "project_name": "HatoMaster",
       "description": "HatoMaster es una plataforma inteligente de gestión ganadera con soporte offline que permite administrar inventario, reproducción, producción, sanidad, costos, empleados y fincas desde un solo lugar. Además, incorpora inteligencia artificial para consultas y análisis de información, así como notificaciones inteligentes para eventos clave, facilitando la toma de decisiones y mejorando la productividad de los ganaderos.",
-      "metrics": {
-        "member_count": 5,
-        "skill_averages": {
-          "programming": 2.8,
-          "infra_db": 2.0,
-          "design": 2.0,
-          "ai": 3.2,
-          "english": 3.4
+      "strategic_metrics": {
+        "trl": 2.91,
+        "ori": {
+          "score": 11.4,
+          "level": "LOW",
+          "components": {
+            "logistic": 0.0,
+            "collab": 38.0,
+            "structural": 0.0
+          }
         },
-        "role_distribution": {
-          "pm_leadership": 1,
-          "backend": 1,
-          "ux_ui": 1,
-          "frontend": 1,
-          "marketing": 1
+        "role_gaps": [],
+        "member_count": 5,
+        "has_senior_dev": true
+      },
+      "qualitative_profile": {
+        "academic_origin": "Universidad Pública",
+        "learning_style": "Autosuficiente (Digital/IA)",
+        "territorial_index": "Distribuido",
+        "autonomy_score": 3.42,
+        "cohesion_score": 3.4,
+        "attendance_score": 1.09,
+        "all_institutions": [
+          "Universidad Pública"
+        ],
+        "all_departments": [
+          "Boaco",
+          "Chontales"
+        ]
+      },
+      "averages": {
+        "skill_programming": 2.8,
+        "skill_infra_db": 2.0,
+        "skill_design": 2.0,
+        "skill_ai": 3.2,
+        "english_level": 3.4
+      },
+      "dispersion": {
+        "skill_programming": {
+          "floor": 2,
+          "std": 0.98
+        },
+        "skill_infra_db": {
+          "floor": 1,
+          "std": 1.26
+        },
+        "skill_design": {
+          "floor": 0,
+          "std": 1.79
+        },
+        "skill_ai": {
+          "floor": 2,
+          "std": 1.17
+        },
+        "english_level": {
+          "floor": 2,
+          "std": 1.36
         }
+      },
+      "role_distribution": {
+        "pm_leadership": 1,
+        "backend": 1,
+        "ux_ui": 1,
+        "frontend": 1,
+        "marketing": 1
       },
       "members": [
         {
           "id": 15,
           "full_name": "Mackferson Isai Sequeira Gonzalez ",
           "email": "mackferson203@gmail.com",
-          "timestamp": "23/5/2026 15:21:37",
-          "context": {
-            "residence_dept": "Chontales",
-            "study_center_type": "Universidad Pública",
-            "career_area": "engineering",
-            "main_role": "pm_leadership",
-            "has_equipment": "Sí, tengo PC/Laptop y buen internet."
-          },
+          "role": "pm_leadership",
+          "dept": "Chontales",
+          "career": "engineering",
+          "institution": "Universidad Pública",
           "skills": {
             "programming": 2,
             "infra_db": 1,
             "design": 4,
             "ai": 2,
             "english": 2
+          },
+          "flags": {
+            "no_equipment": false,
+            "low_time": false
           },
           "qualitative": {
             "learning_method": "🎥 Autodidacta vía YouTube / Tutoriales web.",
@@ -952,31 +1239,28 @@
             "collab_experience": "Sí, estoy acostumbrado a equipos multidisciplinarios.",
             "curiosity_tech": "🤖 Robótica, Internet de las Cosas (IoT) o Electrónica básica.",
             "weekly_hours": "Entre 5 y 10 horas a la semana.",
-            "attendance_score": 0.0,
-            "attendance_sessions": 0,
-            "attendance_total_sessions": 23,
-            "attendance_sessions_general": 0,
-            "attendance_sessions_11": 0
+            "autonomy_score": 2.25,
+            "attendance_score": 1.09
           }
         },
         {
           "id": 17,
           "full_name": "Elmer Javier Urbina Meneses",
           "email": "elmerurbina570@gmail.com",
-          "timestamp": "23/5/2026 15:25:32",
-          "context": {
-            "residence_dept": "Chontales",
-            "study_center_type": "Universidad Pública",
-            "career_area": "tech_systems",
-            "main_role": "backend",
-            "has_equipment": "Sí, tengo PC/Laptop y buen internet."
-          },
+          "role": "backend",
+          "dept": "Chontales",
+          "career": "tech_systems",
+          "institution": "Universidad Pública",
           "skills": {
             "programming": 4,
             "infra_db": 4,
             "design": 0,
             "ai": 5,
             "english": 5
+          },
+          "flags": {
+            "no_equipment": false,
+            "low_time": false
           },
           "qualitative": {
             "learning_method": "🤖 Consultando a Inteligencias Artificiales (ChatGPT, etc).",
@@ -986,31 +1270,28 @@
             "collab_experience": "Sí, estoy acostumbrado a equipos multidisciplinarios.",
             "curiosity_tech": "🤖 Robótica, Internet de las Cosas (IoT) o Electrónica básica.",
             "weekly_hours": "Tiempo completo (Más de 20 horas).",
-            "attendance_score": 2.83,
-            "attendance_sessions": 13,
-            "attendance_total_sessions": 23,
-            "attendance_sessions_general": 11,
-            "attendance_sessions_11": 2
+            "autonomy_score": 4.15,
+            "attendance_score": 1.09
           }
         },
         {
           "id": 19,
           "full_name": "Miguel Ángel Suárez ",
           "email": "ms1941400@gmail.com",
-          "timestamp": "23/5/2026 15:29:18",
-          "context": {
-            "residence_dept": "Chontales",
-            "study_center_type": "Universidad Pública",
-            "career_area": "tech_systems",
-            "main_role": "ux_ui",
-            "has_equipment": "Tengo PC/Laptop, pero el internet es limitado/inestable."
-          },
+          "role": "ux_ui",
+          "dept": "Chontales",
+          "career": "tech_systems",
+          "institution": "Universidad Pública",
           "skills": {
             "programming": 2,
             "infra_db": 1,
             "design": 4,
             "ai": 3,
             "english": 3
+          },
+          "flags": {
+            "no_equipment": false,
+            "low_time": false
           },
           "qualitative": {
             "learning_method": "🎥 Autodidacta vía YouTube / Tutoriales web.",
@@ -1020,31 +1301,28 @@
             "collab_experience": "Muy poco, casi siempre trabajo solo o con gente de mi misma carrera.",
             "curiosity_tech": "🎮 Desarrollo de Videojuegos (Unity, Unreal).",
             "weekly_hours": "Entre 5 y 10 horas a la semana.",
-            "attendance_score": 0.0,
-            "attendance_sessions": 0,
-            "attendance_total_sessions": 23,
-            "attendance_sessions_general": 0,
-            "attendance_sessions_11": 0
+            "autonomy_score": 3.15,
+            "attendance_score": 1.09
           }
         },
         {
           "id": 20,
           "full_name": "Holman Omar Rugama Pérez",
           "email": "holmanrugama2006@gmail.com",
-          "timestamp": "23/5/2026 15:29:44",
-          "context": {
-            "residence_dept": "Boaco",
-            "study_center_type": "Universidad Pública",
-            "career_area": "tech_systems",
-            "main_role": "frontend",
-            "has_equipment": "Sí, tengo PC/Laptop y buen internet."
-          },
+          "role": "frontend",
+          "dept": "Boaco",
+          "career": "tech_systems",
+          "institution": "Universidad Pública",
           "skills": {
             "programming": 4,
             "infra_db": 3,
             "design": 2,
             "ai": 4,
             "english": 2
+          },
+          "flags": {
+            "no_equipment": false,
+            "low_time": false
           },
           "qualitative": {
             "learning_method": "🎥 Autodidacta vía YouTube / Tutoriales web.",
@@ -1054,31 +1332,28 @@
             "collab_experience": "Muy poco, casi siempre trabajo solo o con gente de mi misma carrera.",
             "curiosity_tech": "🎮 Desarrollo de Videojuegos (Unity, Unreal).",
             "weekly_hours": "Entre 5 y 10 horas a la semana.",
-            "attendance_score": 0.0,
-            "attendance_sessions": 0,
-            "attendance_total_sessions": 23,
-            "attendance_sessions_general": 0,
-            "attendance_sessions_11": 0
+            "autonomy_score": 4.4,
+            "attendance_score": 1.09
           }
         },
         {
           "id": 31,
           "full_name": "María José Rivas Miranda ",
           "email": "mjrivasmiranda@gmail.com",
-          "timestamp": "23/5/2026 19:18:53",
-          "context": {
-            "residence_dept": "Chontales",
-            "study_center_type": "Universidad Pública",
-            "career_area": "tech_systems",
-            "main_role": "marketing",
-            "has_equipment": "Sí, tengo PC/Laptop y buen internet."
-          },
+          "role": "marketing",
+          "dept": "Chontales",
+          "career": "tech_systems",
+          "institution": "Universidad Pública",
           "skills": {
             "programming": 2,
             "infra_db": 1,
             "design": 0,
             "ai": 2,
             "english": 5
+          },
+          "flags": {
+            "no_equipment": false,
+            "low_time": false
           },
           "qualitative": {
             "learning_method": "🤖 Consultando a Inteligencias Artificiales (ChatGPT, etc).",
@@ -1088,55 +1363,100 @@
             "collab_experience": "Sí, estoy acostumbrado a equipos multidisciplinarios.",
             "curiosity_tech": "🛡️ Ciberseguridad y Hacking Ético.",
             "weekly_hours": "Entre 5 y 10 horas a la semana.",
-            "attendance_score": 0.0,
-            "attendance_sessions": 0,
-            "attendance_total_sessions": 23,
-            "attendance_sessions_general": 0,
-            "attendance_sessions_11": 0
+            "autonomy_score": 3.15,
+            "attendance_score": 1.09
           }
         }
-      ],
-      "qualitative_profile": {
-        "attendance_score": 0.57
-      }
+      ]
     },
     {
       "id": 8,
       "team_name": "IslaVoz",
       "project_name": "IslaVoz",
       "description": "IslaVoz es una página web de traducción que permite convertir texto del inglés criollo nicaragüense al español y viceversa. Su objetivo es facilitar la comunicación entre ambas lenguas y contribuir a la preservación del inglés criollo nicaragüense mediante una herramienta accesible y fácil de usar.",
-      "metrics": {
-        "member_count": 1,
-        "skill_averages": {
-          "programming": 2.0,
-          "infra_db": 2.0,
-          "design": 2.0,
-          "ai": 1.0,
-          "english": 1.0
+      "strategic_metrics": {
+        "trl": 1.63,
+        "ori": {
+          "score": 55.5,
+          "level": "MODERATE",
+          "components": {
+            "logistic": 0.0,
+            "collab": 100.0,
+            "structural": 85.0
+          }
         },
-        "role_distribution": {
-          "frontend": 1
+        "role_gaps": [
+          "Missing Backend/Architecture",
+          "Missing Leadership/Business"
+        ],
+        "member_count": 1,
+        "has_senior_dev": false
+      },
+      "qualitative_profile": {
+        "academic_origin": "Universidad Privada",
+        "learning_style": "Tradicional (Académico)",
+        "territorial_index": "Centralizado (Managua)",
+        "autonomy_score": 0.95,
+        "cohesion_score": 5.0,
+        "attendance_score": 0.87,
+        "all_institutions": [
+          "Universidad Privada"
+        ],
+        "all_departments": [
+          "Managua"
+        ]
+      },
+      "averages": {
+        "skill_programming": 2.0,
+        "skill_infra_db": 2.0,
+        "skill_design": 2.0,
+        "skill_ai": 1.0,
+        "english_level": 1.0
+      },
+      "dispersion": {
+        "skill_programming": {
+          "floor": 2,
+          "std": 0.0
+        },
+        "skill_infra_db": {
+          "floor": 2,
+          "std": 0.0
+        },
+        "skill_design": {
+          "floor": 2,
+          "std": 0.0
+        },
+        "skill_ai": {
+          "floor": 1,
+          "std": 0.0
+        },
+        "english_level": {
+          "floor": 1,
+          "std": 0.0
         }
+      },
+      "role_distribution": {
+        "frontend": 1
       },
       "members": [
         {
           "id": 58,
           "full_name": "Glida Sarahi Algaba Flores ",
           "email": "sarahialgaba@gmail.com",
-          "timestamp": "29/5/2026 10:21:02",
-          "context": {
-            "residence_dept": "Managua",
-            "study_center_type": "Universidad Privada",
-            "career_area": "tech_systems",
-            "main_role": "frontend",
-            "has_equipment": "Tengo PC/Laptop, pero el internet es limitado/inestable."
-          },
+          "role": "frontend",
+          "dept": "Managua",
+          "career": "tech_systems",
+          "institution": "Universidad Privada",
           "skills": {
             "programming": 2,
             "infra_db": 2,
             "design": 2,
             "ai": 1,
             "english": 1
+          },
+          "flags": {
+            "no_equipment": false,
+            "low_time": false
           },
           "qualitative": {
             "learning_method": "🤖 Consultando a Inteligencias Artificiales (ChatGPT, etc).",
@@ -1146,58 +1466,101 @@
             "collab_experience": "Muy poco, casi siempre trabajo solo o con gente de mi misma carrera.",
             "curiosity_tech": "🛡️ Ciberseguridad y Hacking Ético.",
             "weekly_hours": "Entre 5 y 10 horas a la semana.",
-            "attendance_score": 0.22,
-            "attendance_sessions": 1,
-            "attendance_total_sessions": 23,
-            "attendance_sessions_general": 1,
-            "attendance_sessions_11": 0
+            "autonomy_score": 0.95,
+            "attendance_score": 0.87
           }
         }
-      ],
-      "qualitative_profile": {
-        "attendance_score": 0.22
-      }
+      ]
     },
     {
       "id": 9,
       "team_name": "Los Mulukukeños",
       "project_name": "Va D' Viaje",
       "description": "App de viaje interactivo mediante recomendaciones personalizadas",
-      "metrics": {
-        "member_count": 5,
-        "skill_averages": {
-          "programming": 2.2,
-          "infra_db": 1.4,
-          "design": 2.6,
-          "ai": 2.8,
-          "english": 2.4
+      "strategic_metrics": {
+        "trl": 2.26,
+        "ori": {
+          "score": 30.2,
+          "level": "LOW",
+          "components": {
+            "logistic": 20.0,
+            "collab": 74.0,
+            "structural": 0.0
+          }
         },
-        "role_distribution": {
-          "marketing": 2,
-          "frontend": 1,
-          "backend": 1,
-          "ux_ui": 1
+        "role_gaps": [],
+        "member_count": 5,
+        "has_senior_dev": true
+      },
+      "qualitative_profile": {
+        "academic_origin": "Universidad Pública",
+        "learning_style": "Tradicional (Académico)",
+        "territorial_index": "Distribuido",
+        "autonomy_score": 1.65,
+        "cohesion_score": 2.6,
+        "attendance_score": 1.09,
+        "all_institutions": [
+          "Universidad Pública"
+        ],
+        "all_departments": [
+          "Managua",
+          "Granada"
+        ]
+      },
+      "averages": {
+        "skill_programming": 2.2,
+        "skill_infra_db": 1.4,
+        "skill_design": 2.6,
+        "skill_ai": 2.8,
+        "english_level": 2.4
+      },
+      "dispersion": {
+        "skill_programming": {
+          "floor": 0,
+          "std": 2.32
+        },
+        "skill_infra_db": {
+          "floor": 0,
+          "std": 1.74
+        },
+        "skill_design": {
+          "floor": 1,
+          "std": 1.02
+        },
+        "skill_ai": {
+          "floor": 2,
+          "std": 0.4
+        },
+        "english_level": {
+          "floor": 0,
+          "std": 1.74
         }
+      },
+      "role_distribution": {
+        "marketing": 2,
+        "frontend": 1,
+        "backend": 1,
+        "ux_ui": 1
       },
       "members": [
         {
           "id": 27,
           "full_name": "ELIU ANTONIO NEQUECHERI, CORRALES CABRERA",
           "email": "nequechericorrales@gmail.com",
-          "timestamp": "23/5/2026 16:30:19",
-          "context": {
-            "residence_dept": "Granada",
-            "study_center_type": "Universidad Pública",
-            "career_area": "tech_systems",
-            "main_role": "marketing",
-            "has_equipment": "Sí, tengo PC/Laptop y buen internet."
-          },
+          "role": "marketing",
+          "dept": "Granada",
+          "career": "tech_systems",
+          "institution": "Universidad Pública",
           "skills": {
             "programming": 5,
             "infra_db": 4,
             "design": 1,
             "ai": 3,
             "english": 5
+          },
+          "flags": {
+            "no_equipment": false,
+            "low_time": false
           },
           "qualitative": {
             "learning_method": "Mediante el desarrollo de proyectos, competencias o trabajos asignados en la Universidad.",
@@ -1207,31 +1570,28 @@
             "collab_experience": "Muy poco, casi siempre trabajo solo o con gente de mi misma carrera.",
             "curiosity_tech": "📊 Análisis de Datos Avanzado.",
             "weekly_hours": "Entre 10 y 20 horas a la semana.",
-            "attendance_score": 1.74,
-            "attendance_sessions": 8,
-            "attendance_total_sessions": 23,
-            "attendance_sessions_general": 7,
-            "attendance_sessions_11": 1
+            "autonomy_score": 4.35,
+            "attendance_score": 1.09
           }
         },
         {
           "id": 28,
           "full_name": "Oliver Emmanuel Ortiz Hernández ",
           "email": "oliverotizhernandez18@gmail.com",
-          "timestamp": "23/5/2026 16:58:29",
-          "context": {
-            "residence_dept": "Managua",
-            "study_center_type": "Universidad Pública",
-            "career_area": "communication",
-            "main_role": "marketing",
-            "has_equipment": "Solo utilizo mi teléfono móvil / Tablet."
-          },
+          "role": "marketing",
+          "dept": "Managua",
+          "career": "communication",
+          "institution": "Universidad Pública",
           "skills": {
             "programming": 0,
             "infra_db": 0,
             "design": 2,
             "ai": 3,
             "english": 1
+          },
+          "flags": {
+            "no_equipment": true,
+            "low_time": true
           },
           "qualitative": {
             "learning_method": "🏫 Clases formales en mi Universidad / Centro Técnico.",
@@ -1241,31 +1601,28 @@
             "collab_experience": "No, nunca.",
             "curiosity_tech": "📊 Análisis de Datos Avanzado.",
             "weekly_hours": "Menos de 5 horas a la semana.",
-            "attendance_score": 0.0,
-            "attendance_sessions": 0,
-            "attendance_total_sessions": 23,
-            "attendance_sessions_general": 0,
-            "attendance_sessions_11": 0
+            "autonomy_score": 0.15,
+            "attendance_score": 1.09
           }
         },
         {
           "id": 29,
           "full_name": "Michael Enrique Rivera Latino ",
           "email": "riveramichael793@gmail.com",
-          "timestamp": "23/5/2026 17:18:22",
-          "context": {
-            "residence_dept": "Granada",
-            "study_center_type": "Universidad Pública",
-            "career_area": "design",
-            "main_role": "frontend",
-            "has_equipment": "Tengo PC/Laptop, pero el internet es limitado/inestable."
-          },
+          "role": "frontend",
+          "dept": "Granada",
+          "career": "design",
+          "institution": "Universidad Pública",
           "skills": {
             "programming": 1,
             "infra_db": 0,
             "design": 4,
             "ai": 3,
             "english": 3
+          },
+          "flags": {
+            "no_equipment": false,
+            "low_time": false
           },
           "qualitative": {
             "learning_method": "🎥 Autodidacta vía YouTube / Tutoriales web.",
@@ -1275,31 +1632,28 @@
             "collab_experience": "Muy poco, casi siempre trabajo solo o con gente de mi misma carrera.",
             "curiosity_tech": "🎮 Desarrollo de Videojuegos (Unity, Unreal).",
             "weekly_hours": "Entre 5 y 10 horas a la semana.",
-            "attendance_score": 0.0,
-            "attendance_sessions": 0,
-            "attendance_total_sessions": 23,
-            "attendance_sessions_general": 0,
-            "attendance_sessions_11": 0
+            "autonomy_score": 0.35,
+            "attendance_score": 1.09
           }
         },
         {
           "id": 30,
           "full_name": "Erick Mihail Rojas Martínez",
           "email": "erickrpkas@gmail.com",
-          "timestamp": "23/5/2026 19:02:26",
-          "context": {
-            "residence_dept": "Managua",
-            "study_center_type": "Universidad Pública",
-            "career_area": "tech_systems",
-            "main_role": "backend",
-            "has_equipment": "Sí, tengo PC/Laptop y buen internet."
-          },
+          "role": "backend",
+          "dept": "Managua",
+          "career": "tech_systems",
+          "institution": "Universidad Pública",
           "skills": {
             "programming": 5,
             "infra_db": 3,
             "design": 3,
             "ai": 3,
             "english": 3
+          },
+          "flags": {
+            "no_equipment": false,
+            "low_time": false
           },
           "qualitative": {
             "learning_method": "🎥 Autodidacta vía YouTube / Tutoriales web.",
@@ -1309,31 +1663,28 @@
             "collab_experience": "Sí, estoy acostumbrado a equipos multidisciplinarios.",
             "curiosity_tech": "🛡️ Ciberseguridad y Hacking Ético.",
             "weekly_hours": "Entre 10 y 20 horas a la semana.",
-            "attendance_score": 1.3,
-            "attendance_sessions": 6,
-            "attendance_total_sessions": 23,
-            "attendance_sessions_general": 4,
-            "attendance_sessions_11": 2
+            "autonomy_score": 3.25,
+            "attendance_score": 1.09
           }
         },
         {
           "id": 39,
           "full_name": "Elizabeth Raquel Sandino Romero ",
           "email": "rmelizabeth403@gmail.com",
-          "timestamp": "25/5/2026 12:15:44",
-          "context": {
-            "residence_dept": "Managua",
-            "study_center_type": "Universidad Pública",
-            "career_area": "design",
-            "main_role": "ux_ui",
-            "has_equipment": "Sí, tengo PC/Laptop y buen internet."
-          },
+          "role": "ux_ui",
+          "dept": "Managua",
+          "career": "design",
+          "institution": "Universidad Pública",
           "skills": {
             "programming": 0,
             "infra_db": 0,
             "design": 3,
             "ai": 2,
             "english": 0
+          },
+          "flags": {
+            "no_equipment": false,
+            "low_time": false
           },
           "qualitative": {
             "learning_method": "🏫 Clases formales en mi Universidad / Centro Técnico.",
@@ -1343,56 +1694,101 @@
             "collab_experience": "Sí, estoy acostumbrado a equipos multidisciplinarios.",
             "curiosity_tech": "🎮 Desarrollo de Videojuegos (Unity, Unreal).",
             "weekly_hours": "Entre 5 y 10 horas a la semana.",
-            "attendance_score": 2.17,
-            "attendance_sessions": 10,
-            "attendance_total_sessions": 23,
-            "attendance_sessions_general": 10,
-            "attendance_sessions_11": 0
+            "autonomy_score": 0.15,
+            "attendance_score": 1.09
           }
         }
-      ],
-      "qualitative_profile": {
-        "attendance_score": 1.04
-      }
+      ]
     },
     {
       "id": 10,
       "team_name": "Majingilane",
       "project_name": "Hogari",
       "description": "Hogari es una PWA accesible desde navegador y descargable para móvil o escritorio, diseñada para la contratación de trabajos informales que se pueden realizar desde tu casa. Por decir un ejemplo, necesito a alguien que me ayude hacer una reparación y no encuentro a nadie, desde Hogari el usuario puede publicar el trabajo que requiere y recibir postulaciones, elegir a la persona que realizara el servicio, negociar condiciones y hacer la confirmación y viceversa, se podrán ofrecer tus propios servicios y recibir solicitudes de empleo. La aplicación integrara un enrutamiento a través de mapa, calendarización de actividades y verificación de identidad. Hasta incluso la posibilidad de impulsar o promocionar tus publicaciones mediante créditos. Hogari no busca ser un centro de reclutamiento o mucho menos algo que puedas adjuntar a tu cv, sino un sitio confiable y organizado en el que se muestren todas estas oportunidades, pero sobre todo que sirva para generar un ingreso extra para muchos que lo necesitan.",
-      "metrics": {
-        "member_count": 2,
-        "skill_averages": {
-          "programming": 2.5,
-          "infra_db": 3.0,
-          "design": 2.5,
-          "ai": 4.0,
-          "english": 3.5
+      "strategic_metrics": {
+        "trl": 2.25,
+        "ori": {
+          "score": 35.0,
+          "level": "LOW",
+          "components": {
+            "logistic": 20.0,
+            "collab": 60.0,
+            "structural": 30.0
+          }
         },
-        "role_distribution": {
-          "frontend": 1,
-          "marketing": 1
+        "role_gaps": [
+          "Missing Backend/Architecture"
+        ],
+        "member_count": 2,
+        "has_senior_dev": false
+      },
+      "qualitative_profile": {
+        "academic_origin": "Universidad Pública",
+        "learning_style": "Tradicional (Académico)",
+        "territorial_index": "Distribuido",
+        "autonomy_score": 2.75,
+        "cohesion_score": 2.5,
+        "attendance_score": 0.87,
+        "all_institutions": [
+          "Universidad Pública"
+        ],
+        "all_departments": [
+          "Managua",
+          "Chinandega"
+        ]
+      },
+      "averages": {
+        "skill_programming": 2.5,
+        "skill_infra_db": 3.0,
+        "skill_design": 2.5,
+        "skill_ai": 4.0,
+        "english_level": 3.5
+      },
+      "dispersion": {
+        "skill_programming": {
+          "floor": 2,
+          "std": 0.5
+        },
+        "skill_infra_db": {
+          "floor": 3,
+          "std": 0.0
+        },
+        "skill_design": {
+          "floor": 2,
+          "std": 0.5
+        },
+        "skill_ai": {
+          "floor": 3,
+          "std": 1.0
+        },
+        "english_level": {
+          "floor": 3,
+          "std": 0.5
         }
+      },
+      "role_distribution": {
+        "frontend": 1,
+        "marketing": 1
       },
       "members": [
         {
           "id": 11,
           "full_name": "Sherly Suyen Escoto Espinoza ",
           "email": "mitsukinakano519@gmail.com",
-          "timestamp": "23/5/2026 15:18:53",
-          "context": {
-            "residence_dept": "Managua",
-            "study_center_type": "Universidad Pública",
-            "career_area": "tech_systems",
-            "main_role": "frontend",
-            "has_equipment": "Sí, tengo PC/Laptop y buen internet."
-          },
+          "role": "frontend",
+          "dept": "Managua",
+          "career": "tech_systems",
+          "institution": "Universidad Pública",
           "skills": {
             "programming": 3,
             "infra_db": 3,
             "design": 2,
             "ai": 3,
             "english": 3
+          },
+          "flags": {
+            "no_equipment": false,
+            "low_time": false
           },
           "qualitative": {
             "learning_method": "🎥 Autodidacta vía YouTube / Tutoriales web.",
@@ -1402,31 +1798,28 @@
             "collab_experience": "Muy poco, casi siempre trabajo solo o con gente de mi misma carrera.",
             "curiosity_tech": "🤖 Robótica, Internet de las Cosas (IoT) o Electrónica básica.",
             "weekly_hours": "Entre 5 y 10 horas a la semana.",
-            "attendance_score": 1.09,
-            "attendance_sessions": 5,
-            "attendance_total_sessions": 23,
-            "attendance_sessions_general": 5,
-            "attendance_sessions_11": 0
+            "autonomy_score": 2.85,
+            "attendance_score": 0.87
           }
         },
         {
           "id": 38,
           "full_name": "Felix Antonio Moraga Rostran ",
           "email": "felix.moragaros@gmail.com",
-          "timestamp": "25/5/2026 11:48:25",
-          "context": {
-            "residence_dept": "Chinandega",
-            "study_center_type": "Universidad Pública",
-            "career_area": "tech_systems",
-            "main_role": "marketing",
-            "has_equipment": "Tengo PC/Laptop, pero el internet es limitado/inestable."
-          },
+          "role": "marketing",
+          "dept": "Chinandega",
+          "career": "tech_systems",
+          "institution": "Universidad Pública",
           "skills": {
             "programming": 2,
             "infra_db": 3,
             "design": 3,
             "ai": 5,
             "english": 4
+          },
+          "flags": {
+            "no_equipment": false,
+            "low_time": true
           },
           "qualitative": {
             "learning_method": "🎥 Autodidacta vía YouTube / Tutoriales web.",
@@ -1436,59 +1829,101 @@
             "collab_experience": "Muy poco, casi siempre trabajo solo o con gente de mi misma carrera.",
             "curiosity_tech": "🤖 Robótica, Internet de las Cosas (IoT) o Electrónica básica.",
             "weekly_hours": "Menos de 5 horas a la semana.",
-            "attendance_score": 0.0,
-            "attendance_sessions": 0,
-            "attendance_total_sessions": 23,
-            "attendance_sessions_general": 0,
-            "attendance_sessions_11": 0
+            "autonomy_score": 2.65,
+            "attendance_score": 0.87
           }
         }
-      ],
-      "qualitative_profile": {
-        "attendance_score": 0.55
-      }
+      ]
     },
     {
       "id": 11,
       "team_name": "mas Ctrl",
       "project_name": "Azura",
       "description": "Ecosistema que transforma el cuido de la diabetes en tiempo real. ecosistema integral de salud inteligente diseñado para transformar radicalmente el manejo de la diabetes en Nicaragua, dejando atrás la incertidumbre del registro manual para ofrecer claridad, comunidad y control en tiempo real. Pensada desde cero con un diseño minimalista y un enfoque cultural local, la plataforma utiliza algoritmos respaldados por base científica para interpretar el impacto de la alimentación diaria en la glucosa, conectando activamente a los pacientes con sus familiares mediante alertas preventivas impulsadas por inteligencia artificial, a los médicos con historiales estructurados, a las farmacias a través de un marketplace automatizado de insumos para pacientes con diabetes, y a los restaurantes mediante insignias de impacto glicémico en sus menus. Respaldada por un modelo de negocio sólido de múltiples fuentes de ingresos que proyectan alta rentabilidad a corto plazo y una rápida escalabilidad regional, Azura hace honor a su nombre inspirado en un cielo despejado devolviéndole a millones de personas un horizonte claro y la dignidad de vivir con diabetes de una manera completamente diferente y segura.",
-      "metrics": {
-        "member_count": 5,
-        "skill_averages": {
-          "programming": 2.6,
-          "infra_db": 2.6,
-          "design": 3.4,
-          "ai": 4.2,
-          "english": 3.4
+      "strategic_metrics": {
+        "trl": 3.33,
+        "ori": {
+          "score": 14.0,
+          "level": "LOW",
+          "components": {
+            "logistic": 8.0,
+            "collab": 36.0,
+            "structural": 0.0
+          }
         },
-        "role_distribution": {
-          "backend": 1,
-          "frontend": 1,
-          "pm_leadership": 1,
-          "ux_ui": 1,
-          "marketing": 1
+        "role_gaps": [],
+        "member_count": 5,
+        "has_senior_dev": true
+      },
+      "qualitative_profile": {
+        "academic_origin": "Universidad Pública",
+        "learning_style": "Autosuficiente (Digital/IA)",
+        "territorial_index": "Centralizado (Managua)",
+        "autonomy_score": 3.02,
+        "cohesion_score": 5.0,
+        "attendance_score": 0.87,
+        "all_institutions": [
+          "Universidad Pública"
+        ],
+        "all_departments": [
+          "Managua"
+        ]
+      },
+      "averages": {
+        "skill_programming": 2.6,
+        "skill_infra_db": 2.6,
+        "skill_design": 3.4,
+        "skill_ai": 4.2,
+        "english_level": 3.4
+      },
+      "dispersion": {
+        "skill_programming": {
+          "floor": 0,
+          "std": 1.74
+        },
+        "skill_infra_db": {
+          "floor": 0,
+          "std": 1.85
+        },
+        "skill_design": {
+          "floor": 1,
+          "std": 1.62
+        },
+        "skill_ai": {
+          "floor": 2,
+          "std": 1.17
+        },
+        "english_level": {
+          "floor": 2,
+          "std": 1.02
         }
+      },
+      "role_distribution": {
+        "backend": 1,
+        "frontend": 1,
+        "pm_leadership": 1,
+        "ux_ui": 1,
+        "marketing": 1
       },
       "members": [
         {
           "id": 8,
           "full_name": "Marcelo Andrés Gutierrez Hernández ",
           "email": "marcelos0614@gmail.com",
-          "timestamp": "23/5/2026 15:17:43",
-          "context": {
-            "residence_dept": "Managua",
-            "study_center_type": "Universidad Pública",
-            "career_area": "tech_systems",
-            "main_role": "backend",
-            "has_equipment": "Tengo PC/Laptop, pero el internet es limitado/inestable."
-          },
+          "role": "backend",
+          "dept": "Managua",
+          "career": "tech_systems",
+          "institution": "Universidad Pública",
           "skills": {
             "programming": 4,
             "infra_db": 5,
             "design": 1,
             "ai": 2,
             "english": 4
+          },
+          "flags": {
+            "no_equipment": false,
+            "low_time": false
           },
           "qualitative": {
             "learning_method": "🎥 Autodidacta vía YouTube / Tutoriales web.",
@@ -1498,31 +1933,28 @@
             "collab_experience": "Sí, estoy acostumbrado a equipos multidisciplinarios.",
             "curiosity_tech": "Todos las opciones me los desarrollo de videojuegos",
             "weekly_hours": "Entre 10 y 20 horas a la semana.",
-            "attendance_score": 0.22,
-            "attendance_sessions": 1,
-            "attendance_total_sessions": 23,
-            "attendance_sessions_general": 1,
-            "attendance_sessions_11": 0
+            "autonomy_score": 4.35,
+            "attendance_score": 0.87
           }
         },
         {
           "id": 13,
           "full_name": "Bryand Ivan Castillo Flores",
           "email": "bryandivan@gmail.com",
-          "timestamp": "23/5/2026 15:19:18",
-          "context": {
-            "residence_dept": "Managua",
-            "study_center_type": "Universidad Pública",
-            "career_area": "tech_systems",
-            "main_role": "frontend",
-            "has_equipment": "Sí, tengo PC/Laptop y buen internet."
-          },
+          "role": "frontend",
+          "dept": "Managua",
+          "career": "tech_systems",
+          "institution": "Universidad Pública",
           "skills": {
             "programming": 4,
             "infra_db": 3,
             "design": 2,
             "ai": 4,
             "english": 3
+          },
+          "flags": {
+            "no_equipment": false,
+            "low_time": false
           },
           "qualitative": {
             "learning_method": "Todas las anteriores",
@@ -1532,31 +1964,28 @@
             "collab_experience": "Sí, estoy acostumbrado a equipos multidisciplinarios.",
             "curiosity_tech": "🤖 Robótica, Internet de las Cosas (IoT) o Electrónica básica.",
             "weekly_hours": "Entre 5 y 10 horas a la semana.",
-            "attendance_score": 1.09,
-            "attendance_sessions": 5,
-            "attendance_total_sessions": 23,
-            "attendance_sessions_general": 4,
-            "attendance_sessions_11": 1
+            "autonomy_score": 3.95,
+            "attendance_score": 0.87
           }
         },
         {
           "id": 22,
           "full_name": "Luis Ernesto Malespin Areas ",
           "email": "luisermareas@gmail.com",
-          "timestamp": "23/5/2026 15:33:39",
-          "context": {
-            "residence_dept": "Managua",
-            "study_center_type": "Universidad Pública",
-            "career_area": "tech_systems",
-            "main_role": "pm_leadership",
-            "has_equipment": "Sí, tengo PC/Laptop y buen internet."
-          },
+          "role": "pm_leadership",
+          "dept": "Managua",
+          "career": "tech_systems",
+          "institution": "Universidad Pública",
           "skills": {
             "programming": 4,
             "infra_db": 4,
             "design": 5,
             "ai": 5,
             "english": 5
+          },
+          "flags": {
+            "no_equipment": false,
+            "low_time": false
           },
           "qualitative": {
             "learning_method": "🤖 Consultando a Inteligencias Artificiales (ChatGPT, etc).",
@@ -1566,31 +1995,28 @@
             "collab_experience": "Sí, estoy acostumbrado a equipos multidisciplinarios.",
             "curiosity_tech": "🛡️ Ciberseguridad y Hacking Ético.",
             "weekly_hours": "Entre 5 y 10 horas a la semana.",
-            "attendance_score": 1.52,
-            "attendance_sessions": 7,
-            "attendance_total_sessions": 23,
-            "attendance_sessions_general": 6,
-            "attendance_sessions_11": 1
+            "autonomy_score": 4.6,
+            "attendance_score": 0.87
           }
         },
         {
           "id": 35,
           "full_name": "Esther Nohemi Hernández Obando ",
           "email": "hernandeznohemy590@gmail.com",
-          "timestamp": "25/5/2026 11:07:04",
-          "context": {
-            "residence_dept": "Managua",
-            "study_center_type": "Universidad Pública",
-            "career_area": "engineering",
-            "main_role": "ux_ui",
-            "has_equipment": "Sí, tengo PC/Laptop y buen internet."
-          },
+          "role": "ux_ui",
+          "dept": "Managua",
+          "career": "engineering",
+          "institution": "Universidad Pública",
           "skills": {
             "programming": 0,
             "infra_db": 0,
             "design": 5,
             "ai": 5,
             "english": 2
+          },
+          "flags": {
+            "no_equipment": false,
+            "low_time": false
           },
           "qualitative": {
             "learning_method": "🏫 Clases formales en mi Universidad / Centro Técnico.",
@@ -1600,31 +2026,28 @@
             "collab_experience": "Sí, estoy acostumbrado a equipos multidisciplinarios.",
             "curiosity_tech": "🤖 Robótica, Internet de las Cosas (IoT) o Electrónica básica.",
             "weekly_hours": "Entre 5 y 10 horas a la semana.",
-            "attendance_score": 0.0,
-            "attendance_sessions": 0,
-            "attendance_total_sessions": 23,
-            "attendance_sessions_general": 0,
-            "attendance_sessions_11": 0
+            "autonomy_score": 0.15,
+            "attendance_score": 0.87
           }
         },
         {
           "id": 40,
           "full_name": "Maura del Socorro Ruiz Sánchez ",
           "email": "mausanchez922@gmail.com",
-          "timestamp": "25/5/2026 15:57:25",
-          "context": {
-            "residence_dept": "Managua",
-            "study_center_type": "Universidad Pública",
-            "career_area": "engineering",
-            "main_role": "marketing",
-            "has_equipment": "Sí, tengo PC/Laptop y buen internet."
-          },
+          "role": "marketing",
+          "dept": "Managua",
+          "career": "engineering",
+          "institution": "Universidad Pública",
           "skills": {
             "programming": 1,
             "infra_db": 1,
             "design": 4,
             "ai": 5,
             "english": 3
+          },
+          "flags": {
+            "no_equipment": false,
+            "low_time": true
           },
           "qualitative": {
             "learning_method": "🎥 Autodidacta vía YouTube / Tutoriales web.",
@@ -1634,55 +2057,100 @@
             "collab_experience": "Sí, estoy acostumbrado a equipos multidisciplinarios.",
             "curiosity_tech": "📊 Análisis de Datos Avanzado.",
             "weekly_hours": "Menos de 5 horas a la semana.",
-            "attendance_score": 0.0,
-            "attendance_sessions": 0,
-            "attendance_total_sessions": 23,
-            "attendance_sessions_general": 0,
-            "attendance_sessions_11": 0
+            "autonomy_score": 2.05,
+            "attendance_score": 0.87
           }
         }
-      ],
-      "qualitative_profile": {
-        "attendance_score": 0.57
-      }
+      ]
     },
     {
       "id": 12,
       "team_name": "Nacatamal",
       "project_name": "Kira",
       "description": "Kira es una aplicación móvil que enseña de forma lúdica la cultura nicaragüense, al igual que potencia el alcance de los pequeños emprendedores para generarles posibles clientes.",
-      "metrics": {
-        "member_count": 1,
-        "skill_averages": {
-          "programming": 4.0,
-          "infra_db": 4.0,
-          "design": 4.0,
-          "ai": 1.0,
-          "english": 2.0
+      "strategic_metrics": {
+        "trl": 2.84,
+        "ori": {
+          "score": 21.0,
+          "level": "LOW",
+          "components": {
+            "logistic": 0.0,
+            "collab": 0.0,
+            "structural": 70.0
+          }
         },
-        "role_distribution": {
-          "backend": 1
+        "role_gaps": [
+          "Missing Frontend/Design",
+          "Missing Leadership/Business"
+        ],
+        "member_count": 1,
+        "has_senior_dev": true
+      },
+      "qualitative_profile": {
+        "academic_origin": "Universidad Pública",
+        "learning_style": "Autosuficiente (Digital/IA)",
+        "territorial_index": "Centralizado (Managua)",
+        "autonomy_score": 4.6,
+        "cohesion_score": 5.0,
+        "attendance_score": 0.0,
+        "all_institutions": [
+          "Universidad Pública"
+        ],
+        "all_departments": [
+          "Managua"
+        ]
+      },
+      "averages": {
+        "skill_programming": 4.0,
+        "skill_infra_db": 4.0,
+        "skill_design": 4.0,
+        "skill_ai": 1.0,
+        "english_level": 2.0
+      },
+      "dispersion": {
+        "skill_programming": {
+          "floor": 4,
+          "std": 0.0
+        },
+        "skill_infra_db": {
+          "floor": 4,
+          "std": 0.0
+        },
+        "skill_design": {
+          "floor": 4,
+          "std": 0.0
+        },
+        "skill_ai": {
+          "floor": 1,
+          "std": 0.0
+        },
+        "english_level": {
+          "floor": 2,
+          "std": 0.0
         }
+      },
+      "role_distribution": {
+        "backend": 1
       },
       "members": [
         {
           "id": 69,
           "full_name": "Edwin José Silva Alvarado",
           "email": "edwinjsa2021@gmail.com",
-          "timestamp": "30/5/2026 14:22:52",
-          "context": {
-            "residence_dept": "Managua",
-            "study_center_type": "Universidad Pública",
-            "career_area": "tech_systems",
-            "main_role": "backend",
-            "has_equipment": "Sí, tengo PC/Laptop y buen internet."
-          },
+          "role": "backend",
+          "dept": "Managua",
+          "career": "tech_systems",
+          "institution": "Universidad Pública",
           "skills": {
             "programming": 4,
             "infra_db": 4,
             "design": 4,
             "ai": 1,
             "english": 2
+          },
+          "flags": {
+            "no_equipment": false,
+            "low_time": false
           },
           "qualitative": {
             "learning_method": "🤖 Consultando a Inteligencias Artificiales (ChatGPT, etc).",
@@ -1692,56 +2160,100 @@
             "collab_experience": "Sí, estoy acostumbrado a equipos multidisciplinarios.",
             "curiosity_tech": "🤖 Robótica, Internet de las Cosas (IoT) o Electrónica básica.",
             "weekly_hours": "Entre 5 y 10 horas a la semana.",
-            "attendance_score": 1.09,
-            "attendance_sessions": 5,
-            "attendance_total_sessions": 23,
-            "attendance_sessions_general": 4,
-            "attendance_sessions_11": 1
+            "autonomy_score": 4.6,
+            "attendance_score": 0.0
           }
         }
-      ],
-      "qualitative_profile": {
-        "attendance_score": 1.09
-      }
+      ]
     },
     {
       "id": 13,
       "team_name": "NexuVida",
       "project_name": "Plataforma SAAS (Health tech)",
       "description": "NexuVida es una aplicación web diseñada para apoyar a profesionales de la salud en la gestión clínica, administrativa y tecnológica de sus consultas. Su propósito es optimizar el tiempo del médico, mejorar la organización de la información del paciente y facilitar un seguimiento más claro y seguro durante la atención médica. A través de herramientas digitales como gestión de pacientes, agenda de citas, historial clínico, registro de notas médicas y apoyo con inteligencia artificial para estructurar información clínica, NexuVida busca reducir la carga administrativa y permitir que el profesional se enfoque más en el paciente que en el papeleo. En resumen, NexuVida sirve como una plataforma médica integral que conecta tecnología, organización y asistencia inteligente para hacer más eficiente, ordenada y moderna la atención en salud.",
-      "metrics": {
-        "member_count": 2,
-        "skill_averages": {
-          "programming": 3.5,
-          "infra_db": 3.5,
-          "design": 3.5,
-          "ai": 4.5,
-          "english": 4.5
+      "strategic_metrics": {
+        "trl": 3.27,
+        "ori": {
+          "score": 14.2,
+          "level": "LOW",
+          "components": {
+            "logistic": 0.0,
+            "collab": 17.5,
+            "structural": 30.0
+          }
         },
-        "role_distribution": {
-          "frontend": 1,
-          "cto": 1
+        "role_gaps": [
+          "Missing Leadership/Business"
+        ],
+        "member_count": 2,
+        "has_senior_dev": true
+      },
+      "qualitative_profile": {
+        "academic_origin": "Universidad Privada",
+        "learning_style": "Tradicional (Académico)",
+        "territorial_index": "Centralizado (Managua)",
+        "autonomy_score": 3.72,
+        "cohesion_score": 5.0,
+        "attendance_score": 1.09,
+        "all_institutions": [
+          "Universidad Privada"
+        ],
+        "all_departments": [
+          "Managua"
+        ]
+      },
+      "averages": {
+        "skill_programming": 3.5,
+        "skill_infra_db": 3.5,
+        "skill_design": 3.5,
+        "skill_ai": 4.5,
+        "english_level": 4.5
+      },
+      "dispersion": {
+        "skill_programming": {
+          "floor": 3,
+          "std": 0.5
+        },
+        "skill_infra_db": {
+          "floor": 3,
+          "std": 0.5
+        },
+        "skill_design": {
+          "floor": 3,
+          "std": 0.5
+        },
+        "skill_ai": {
+          "floor": 4,
+          "std": 0.5
+        },
+        "english_level": {
+          "floor": 4,
+          "std": 0.5
         }
+      },
+      "role_distribution": {
+        "frontend": 1,
+        "cto": 1
       },
       "members": [
         {
           "id": 10,
           "full_name": "Brytanny Elizabeth Gutiérrez González ",
           "email": "gutierrezbrytanny08@gmail.com",
-          "timestamp": "23/5/2026 15:18:12",
-          "context": {
-            "residence_dept": "Managua",
-            "study_center_type": "Universidad Privada",
-            "career_area": "engineering",
-            "main_role": "frontend",
-            "has_equipment": "Sí, tengo PC/Laptop y buen internet."
-          },
+          "role": "frontend",
+          "dept": "Managua",
+          "career": "engineering",
+          "institution": "Universidad Privada",
           "skills": {
             "programming": 3,
             "infra_db": 3,
             "design": 4,
             "ai": 4,
             "english": 5
+          },
+          "flags": {
+            "no_equipment": false,
+            "low_time": false
           },
           "qualitative": {
             "learning_method": "🏫 Clases formales en mi Universidad / Centro Técnico.",
@@ -1751,31 +2263,28 @@
             "collab_experience": "Sí, estoy acostumbrado a equipos multidisciplinarios.",
             "curiosity_tech": "🛡️ Ciberseguridad y Hacking Ético.",
             "weekly_hours": "Entre 5 y 10 horas a la semana.",
-            "attendance_score": 2.39,
-            "attendance_sessions": 11,
-            "attendance_total_sessions": 23,
-            "attendance_sessions_general": 10,
-            "attendance_sessions_11": 1
+            "autonomy_score": 2.85,
+            "attendance_score": 1.09
           }
         },
         {
           "id": 25,
           "full_name": "Osman Alfredo Chávez Aguilar ",
           "email": "osmanalfredochavez12@gmail.com",
-          "timestamp": "23/5/2026 16:19:15",
-          "context": {
-            "residence_dept": "Managua",
-            "study_center_type": "Universidad Privada",
-            "career_area": "tech_systems",
-            "main_role": "cto",
-            "has_equipment": "Sí, tengo PC/Laptop y buen internet."
-          },
+          "role": "cto",
+          "dept": "Managua",
+          "career": "tech_systems",
+          "institution": "Universidad Privada",
           "skills": {
             "programming": 4,
             "infra_db": 4,
             "design": 3,
             "ai": 5,
             "english": 4
+          },
+          "flags": {
+            "no_equipment": false,
+            "low_time": false
           },
           "qualitative": {
             "learning_method": "Clase de la universidad y practicando con proyectos de buen aporte ",
@@ -1785,56 +2294,100 @@
             "collab_experience": "Sí, estoy acostumbrado a equipos multidisciplinarios.",
             "curiosity_tech": "🛡️ Ciberseguridad y Hacking Ético.",
             "weekly_hours": "Entre 5 y 10 horas a la semana.",
-            "attendance_score": 0.87,
-            "attendance_sessions": 4,
-            "attendance_total_sessions": 23,
-            "attendance_sessions_general": 3,
-            "attendance_sessions_11": 1
+            "autonomy_score": 4.6,
+            "attendance_score": 1.09
           }
         }
-      ],
-      "qualitative_profile": {
-        "attendance_score": 1.63
-      }
+      ]
     },
     {
       "id": 14,
       "team_name": "Nicaplus",
       "project_name": "Nica Prime",
       "description": "Aplicación móvil para la promoción de gestión de la Salud, educativa y comunitaria para fortalecer  el bienestar de las familias Nicaragüense.",
-      "metrics": {
-        "member_count": 3,
-        "skill_averages": {
-          "programming": 1.67,
-          "infra_db": 1.33,
-          "design": 3.33,
-          "ai": 3.33,
-          "english": 3.0
+      "strategic_metrics": {
+        "trl": 2.65,
+        "ori": {
+          "score": 28.3,
+          "level": "LOW",
+          "components": {
+            "logistic": 33.3,
+            "collab": 50.0,
+            "structural": 0.0
+          }
         },
-        "role_distribution": {
-          "frontend": 1,
-          "marketing": 2
+        "role_gaps": [
+          "Missing Backend/Architecture"
+        ],
+        "member_count": 3,
+        "has_senior_dev": true
+      },
+      "qualitative_profile": {
+        "academic_origin": "Centro Tecnológico (INATEC)",
+        "learning_style": "Tradicional (Académico)",
+        "territorial_index": "Centralizado (Carazo)",
+        "autonomy_score": 1.7,
+        "cohesion_score": 5.0,
+        "attendance_score": 0.87,
+        "all_institutions": [
+          "Centro Tecnológico (INATEC)"
+        ],
+        "all_departments": [
+          "Carazo"
+        ]
+      },
+      "averages": {
+        "skill_programming": 1.67,
+        "skill_infra_db": 1.33,
+        "skill_design": 3.33,
+        "skill_ai": 3.33,
+        "english_level": 3.0
+      },
+      "dispersion": {
+        "skill_programming": {
+          "floor": 0,
+          "std": 2.36
+        },
+        "skill_infra_db": {
+          "floor": 0,
+          "std": 1.89
+        },
+        "skill_design": {
+          "floor": 3,
+          "std": 0.47
+        },
+        "skill_ai": {
+          "floor": 3,
+          "std": 0.47
+        },
+        "english_level": {
+          "floor": 3,
+          "std": 0.0
         }
+      },
+      "role_distribution": {
+        "frontend": 1,
+        "marketing": 2
       },
       "members": [
         {
           "id": 3,
           "full_name": "Kenneth Josue Aguilar Parrales",
           "email": "kenneth.parrales@gmail.com",
-          "timestamp": "23/5/2026 15:14:51",
-          "context": {
-            "residence_dept": "Carazo",
-            "study_center_type": "Centro Tecnológico (INATEC)",
-            "career_area": "tech_systems",
-            "main_role": "frontend",
-            "has_equipment": "Sí, tengo PC/Laptop y buen internet."
-          },
+          "role": "frontend",
+          "dept": "Carazo",
+          "career": "tech_systems",
+          "institution": "Centro Tecnológico (INATEC)",
           "skills": {
             "programming": 5,
             "infra_db": 4,
             "design": 4,
             "ai": 4,
             "english": 3
+          },
+          "flags": {
+            "no_equipment": false,
+            "low_time": true
           },
           "qualitative": {
             "learning_method": "🎥 Autodidacta vía YouTube / Tutoriales web.",
@@ -1844,31 +2397,28 @@
             "collab_experience": "Sí, estoy acostumbrado a equipos multidisciplinarios.",
             "curiosity_tech": "🤖 Robótica, Internet de las Cosas (IoT) o Electrónica básica.",
             "weekly_hours": "Menos de 5 horas a la semana.",
-            "attendance_score": 0.22,
-            "attendance_sessions": 1,
-            "attendance_total_sessions": 23,
-            "attendance_sessions_general": 0,
-            "attendance_sessions_11": 1
+            "autonomy_score": 4.8,
+            "attendance_score": 0.87
           }
         },
         {
           "id": 46,
           "full_name": "Felixgerman Santiago Madrigal Borge",
           "email": "bstushka666@gmail.com",
-          "timestamp": "26/5/2026 9:54:58",
-          "context": {
-            "residence_dept": "Carazo",
-            "study_center_type": "Centro Tecnológico (INATEC)",
-            "career_area": "engineering",
-            "main_role": "marketing",
-            "has_equipment": "Sí, tengo PC/Laptop y buen internet."
-          },
+          "role": "marketing",
+          "dept": "Carazo",
+          "career": "engineering",
+          "institution": "Centro Tecnológico (INATEC)",
           "skills": {
             "programming": 0,
             "infra_db": 0,
             "design": 3,
             "ai": 3,
             "english": 3
+          },
+          "flags": {
+            "no_equipment": false,
+            "low_time": false
           },
           "qualitative": {
             "learning_method": "🎥 Autodidacta vía YouTube / Tutoriales web.",
@@ -1878,31 +2428,28 @@
             "collab_experience": "Sí, estoy acostumbrado a equipos multidisciplinarios.",
             "curiosity_tech": "📊 Análisis de Datos Avanzado.",
             "weekly_hours": "Entre 5 y 10 horas a la semana.",
-            "attendance_score": 0.0,
-            "attendance_sessions": 0,
-            "attendance_total_sessions": 23,
-            "attendance_sessions_general": 0,
-            "attendance_sessions_11": 0
+            "autonomy_score": 0.15,
+            "attendance_score": 0.87
           }
         },
         {
           "id": 70,
           "full_name": "Soraya Isabel Madrigal Borge ",
           "email": "sorayaisa123madrigal@gmail.com",
-          "timestamp": "30/5/2026 15:05:24",
-          "context": {
-            "residence_dept": "Carazo",
-            "study_center_type": "Centro Tecnológico (INATEC)",
-            "career_area": "education",
-            "main_role": "marketing",
-            "has_equipment": "Solo utilizo mi teléfono móvil / Tablet."
-          },
+          "role": "marketing",
+          "dept": "Carazo",
+          "career": "education",
+          "institution": "Centro Tecnológico (INATEC)",
           "skills": {
             "programming": 0,
             "infra_db": 0,
             "design": 3,
             "ai": 3,
             "english": 3
+          },
+          "flags": {
+            "no_equipment": true,
+            "low_time": false
           },
           "qualitative": {
             "learning_method": "🎥 Autodidacta vía YouTube / Tutoriales web.",
@@ -1912,56 +2459,100 @@
             "collab_experience": "Sí, estoy acostumbrado a equipos multidisciplinarios.",
             "curiosity_tech": "📊 Análisis de Datos Avanzado.",
             "weekly_hours": "Entre 5 y 10 horas a la semana.",
-            "attendance_score": 0.0,
-            "attendance_sessions": 0,
-            "attendance_total_sessions": 23,
-            "attendance_sessions_general": 0,
-            "attendance_sessions_11": 0
+            "autonomy_score": 0.15,
+            "attendance_score": 0.87
           }
         }
-      ],
-      "qualitative_profile": {
-        "attendance_score": 0.07
-      }
+      ]
     },
     {
       "id": 15,
       "team_name": "No te aisles",
       "project_name": "No te aisles",
       "description": "Funcionará como una plataforma de gestión socio sanitaria. El enfoque de \"problemática social\" implica que no vemos la depresión o el autismo como casos aislados, sino como condiciones que requieren una red de apoyo comunitaria.\nRoles de los Estudiantes\nPsicología: Diseño de contenido psicoeducativo, protocolos de primera escucha y moderación de foros.\nEnfermería: Seguimiento de signos de alerta, consejos de salud física/sueño y canalización a centros de salud.\nIngeniería en Sistemas: Desarrollo, seguridad de datos (confidencialidad) y mantenimiento de la infraestructura. Así como una aplicación con registro anónimo o poder registrarse en la plataforma que conecte el chatbot para redireccionar a la página para recibir asistencia profesional",
-      "metrics": {
-        "member_count": 2,
-        "skill_averages": {
-          "programming": 2.0,
-          "infra_db": 3.0,
-          "design": 2.5,
-          "ai": 3.0,
-          "english": 2.5
+      "strategic_metrics": {
+        "trl": 2.52,
+        "ori": {
+          "score": 32.0,
+          "level": "LOW",
+          "components": {
+            "logistic": 20.0,
+            "collab": 50.0,
+            "structural": 30.0
+          }
         },
-        "role_distribution": {
-          "ux_ui": 1,
-          "pm_leadership": 1
+        "role_gaps": [
+          "Missing Backend/Architecture"
+        ],
+        "member_count": 2,
+        "has_senior_dev": true
+      },
+      "qualitative_profile": {
+        "academic_origin": "Universidad Privada",
+        "learning_style": "Tradicional (Académico)",
+        "territorial_index": "Centralizado (Chontales)",
+        "autonomy_score": 2.58,
+        "cohesion_score": 5.0,
+        "attendance_score": 0.87,
+        "all_institutions": [
+          "Universidad Privada"
+        ],
+        "all_departments": [
+          "Chontales"
+        ]
+      },
+      "averages": {
+        "skill_programming": 2.0,
+        "skill_infra_db": 3.0,
+        "skill_design": 2.5,
+        "skill_ai": 3.0,
+        "english_level": 2.5
+      },
+      "dispersion": {
+        "skill_programming": {
+          "floor": 1,
+          "std": 1.0
+        },
+        "skill_infra_db": {
+          "floor": 2,
+          "std": 1.0
+        },
+        "skill_design": {
+          "floor": 2,
+          "std": 0.5
+        },
+        "skill_ai": {
+          "floor": 2,
+          "std": 1.0
+        },
+        "english_level": {
+          "floor": 0,
+          "std": 2.5
         }
+      },
+      "role_distribution": {
+        "ux_ui": 1,
+        "pm_leadership": 1
       },
       "members": [
         {
           "id": 71,
           "full_name": "Yerling Javier Gonzalez Taleno",
           "email": "est-gyerlingt@uml.edu.ni",
-          "timestamp": "30/5/2026 15:18:38",
-          "context": {
-            "residence_dept": "Chontales",
-            "study_center_type": "Universidad Privada",
-            "career_area": "tech_systems",
-            "main_role": "ux_ui",
-            "has_equipment": "Tengo PC/Laptop, pero el internet es limitado/inestable."
-          },
+          "role": "ux_ui",
+          "dept": "Chontales",
+          "career": "tech_systems",
+          "institution": "Universidad Privada",
           "skills": {
             "programming": 1,
             "infra_db": 2,
             "design": 2,
             "ai": 2,
             "english": 0
+          },
+          "flags": {
+            "no_equipment": false,
+            "low_time": false
           },
           "qualitative": {
             "learning_method": "🏫 Clases formales en mi Universidad / Centro Técnico.",
@@ -1971,31 +2562,28 @@
             "collab_experience": "No, nunca.",
             "curiosity_tech": "🤖 Robótica, Internet de las Cosas (IoT) o Electrónica básica.",
             "weekly_hours": "Entre 10 y 20 horas a la semana.",
-            "attendance_score": 0.22,
-            "attendance_sessions": 1,
-            "attendance_total_sessions": 23,
-            "attendance_sessions_general": 0,
-            "attendance_sessions_11": 1
+            "autonomy_score": 0.75,
+            "attendance_score": 0.87
           }
         },
         {
           "id": 81,
           "full_name": "Lener Leonel Rivas Morales ",
           "email": "lenerrivas@gmail.com",
-          "timestamp": "3/6/2026 9:24:34",
-          "context": {
-            "residence_dept": "Chontales",
-            "study_center_type": "Universidad Privada",
-            "career_area": "tech_systems",
-            "main_role": "pm_leadership",
-            "has_equipment": "Sí, tengo PC/Laptop y buen internet."
-          },
+          "role": "pm_leadership",
+          "dept": "Chontales",
+          "career": "tech_systems",
+          "institution": "Universidad Privada",
           "skills": {
             "programming": 3,
             "infra_db": 4,
             "design": 3,
             "ai": 4,
             "english": 5
+          },
+          "flags": {
+            "no_equipment": false,
+            "low_time": true
           },
           "qualitative": {
             "learning_method": "🎥 Autodidacta vía YouTube / Tutoriales web.",
@@ -2005,57 +2593,100 @@
             "collab_experience": "Sí, estoy acostumbrado a equipos multidisciplinarios.",
             "curiosity_tech": "🛡️ Ciberseguridad y Hacking Ético.",
             "weekly_hours": "Menos de 5 horas a la semana.",
-            "attendance_score": 0.22,
-            "attendance_sessions": 1,
-            "attendance_total_sessions": 23,
-            "attendance_sessions_general": 0,
-            "attendance_sessions_11": 1
+            "autonomy_score": 4.4,
+            "attendance_score": 0.87
           }
         }
-      ],
-      "qualitative_profile": {
-        "attendance_score": 0.22
-      }
+      ]
     },
     {
       "id": 16,
       "team_name": "NovaMind",
       "project_name": "LES Healts",
       "description": "LesHealth es una plataforma web enfocada en el autocuidado y seguimiento de pacientes con lupus. Permite registrar síntomas, monitorear tratamientos y acceder a información relevante sobre la enfermedad, facilitando una mejor gestión de la salud. Su objetivo es brindar una herramienta digital accesible que contribuya al bienestar y la calidad de vida de las personas que viven con lupus.",
-      "metrics": {
-        "member_count": 4,
-        "skill_averages": {
-          "programming": 3.0,
-          "infra_db": 2.75,
-          "design": 3.0,
-          "ai": 2.75,
-          "english": 2.0
+      "strategic_metrics": {
+        "trl": 2.74,
+        "ori": {
+          "score": 17.2,
+          "level": "LOW",
+          "components": {
+            "logistic": 0.0,
+            "collab": 57.5,
+            "structural": 0.0
+          }
         },
-        "role_distribution": {
-          "backend": 2,
-          "ux_ui": 1,
-          "marketing": 1
+        "role_gaps": [],
+        "member_count": 4,
+        "has_senior_dev": true
+      },
+      "qualitative_profile": {
+        "academic_origin": "Universidad Pública",
+        "learning_style": "Autosuficiente (Digital/IA)",
+        "territorial_index": "Distribuido",
+        "autonomy_score": 2.87,
+        "cohesion_score": 2.5,
+        "attendance_score": 1.09,
+        "all_institutions": [
+          "Universidad Pública"
+        ],
+        "all_departments": [
+          "Nueva Segovia",
+          "Madriz"
+        ]
+      },
+      "averages": {
+        "skill_programming": 3.0,
+        "skill_infra_db": 2.75,
+        "skill_design": 3.0,
+        "skill_ai": 2.75,
+        "english_level": 2.0
+      },
+      "dispersion": {
+        "skill_programming": {
+          "floor": 0,
+          "std": 1.87
+        },
+        "skill_infra_db": {
+          "floor": 0,
+          "std": 1.79
+        },
+        "skill_design": {
+          "floor": 2,
+          "std": 0.71
+        },
+        "skill_ai": {
+          "floor": 0,
+          "std": 1.79
+        },
+        "english_level": {
+          "floor": 0,
+          "std": 1.58
         }
+      },
+      "role_distribution": {
+        "backend": 2,
+        "ux_ui": 1,
+        "marketing": 1
       },
       "members": [
         {
           "id": 1,
           "full_name": "Johandry Yasmir Luna Lazo",
           "email": "johandryyasmirluna@gmail.com",
-          "timestamp": "23/5/2026 15:13:48",
-          "context": {
-            "residence_dept": "Nueva Segovia",
-            "study_center_type": "Universidad Pública",
-            "career_area": "tech_systems",
-            "main_role": "backend",
-            "has_equipment": "Sí, tengo PC/Laptop y buen internet."
-          },
+          "role": "backend",
+          "dept": "Nueva Segovia",
+          "career": "tech_systems",
+          "institution": "Universidad Pública",
           "skills": {
             "programming": 4,
             "infra_db": 3,
             "design": 2,
             "ai": 3,
             "english": 3
+          },
+          "flags": {
+            "no_equipment": false,
+            "low_time": false
           },
           "qualitative": {
             "learning_method": "📜 Cursos online de pago (Udemy, Platzi, Coursera).",
@@ -2065,31 +2696,28 @@
             "collab_experience": "No, nunca.",
             "curiosity_tech": "🤖 Robótica, Internet de las Cosas (IoT) o Electrónica básica.",
             "weekly_hours": "Entre 5 y 10 horas a la semana.",
-            "attendance_score": 0.65,
-            "attendance_sessions": 3,
-            "attendance_total_sessions": 23,
-            "attendance_sessions_general": 2,
-            "attendance_sessions_11": 1
+            "autonomy_score": 3.95,
+            "attendance_score": 1.09
           }
         },
         {
           "id": 47,
           "full_name": "Fabián José López Velázquez ",
           "email": "fabianlopez5679@gmail.com",
-          "timestamp": "26/5/2026 9:56:07",
-          "context": {
-            "residence_dept": "Nueva Segovia",
-            "study_center_type": "Universidad Pública",
-            "career_area": "tech_systems",
-            "main_role": "ux_ui",
-            "has_equipment": "Sí, tengo PC/Laptop y buen internet."
-          },
+          "role": "ux_ui",
+          "dept": "Nueva Segovia",
+          "career": "tech_systems",
+          "institution": "Universidad Pública",
           "skills": {
             "programming": 0,
             "infra_db": 0,
             "design": 3,
             "ai": 0,
             "english": 0
+          },
+          "flags": {
+            "no_equipment": false,
+            "low_time": false
           },
           "qualitative": {
             "learning_method": "🎥 Autodidacta vía YouTube / Tutoriales web.",
@@ -2099,31 +2727,28 @@
             "collab_experience": "Sí, estoy acostumbrado a equipos multidisciplinarios.",
             "curiosity_tech": "🎮 Desarrollo de Videojuegos (Unity, Unreal).",
             "weekly_hours": "Entre 10 y 20 horas a la semana.",
-            "attendance_score": 0.0,
-            "attendance_sessions": 0,
-            "attendance_total_sessions": 23,
-            "attendance_sessions_general": 0,
-            "attendance_sessions_11": 0
+            "autonomy_score": 1.65,
+            "attendance_score": 1.09
           }
         },
         {
           "id": 49,
           "full_name": "Rodrigo Josue Molina Torrez ",
           "email": "molinarodrigo125@gmail.com",
-          "timestamp": "26/5/2026 16:09:05",
-          "context": {
-            "residence_dept": "Madriz",
-            "study_center_type": "Universidad Pública",
-            "career_area": "tech_systems",
-            "main_role": "backend",
-            "has_equipment": "Sí, tengo PC/Laptop y buen internet."
-          },
+          "role": "backend",
+          "dept": "Madriz",
+          "career": "tech_systems",
+          "institution": "Universidad Pública",
           "skills": {
             "programming": 5,
             "infra_db": 5,
             "design": 3,
             "ai": 3,
             "english": 4
+          },
+          "flags": {
+            "no_equipment": false,
+            "low_time": false
           },
           "qualitative": {
             "learning_method": "📜 Cursos online de pago (Udemy, Platzi, Coursera).",
@@ -2133,31 +2758,28 @@
             "collab_experience": "Muy poco, casi siempre trabajo solo o con gente de mi misma carrera.",
             "curiosity_tech": "🛡️ Ciberseguridad y Hacking Ético.",
             "weekly_hours": "Entre 10 y 20 horas a la semana.",
-            "attendance_score": 0.43,
-            "attendance_sessions": 2,
-            "attendance_total_sessions": 23,
-            "attendance_sessions_general": 1,
-            "attendance_sessions_11": 1
+            "autonomy_score": 4.55,
+            "attendance_score": 1.09
           }
         },
         {
           "id": 51,
           "full_name": "Angela Mishella Martínez Guerrero ",
           "email": "mish51091@gmail.com",
-          "timestamp": "26/5/2026 16:22:33",
-          "context": {
-            "residence_dept": "Madriz",
-            "study_center_type": "Universidad Pública",
-            "career_area": "tech_systems",
-            "main_role": "marketing",
-            "has_equipment": "Tengo PC/Laptop, pero el internet es limitado/inestable."
-          },
+          "role": "marketing",
+          "dept": "Madriz",
+          "career": "tech_systems",
+          "institution": "Universidad Pública",
           "skills": {
             "programming": 3,
             "infra_db": 3,
             "design": 4,
             "ai": 5,
             "english": 1
+          },
+          "flags": {
+            "no_equipment": false,
+            "low_time": false
           },
           "qualitative": {
             "learning_method": "🤖 Consultando a Inteligencias Artificiales (ChatGPT, etc).",
@@ -2167,55 +2789,100 @@
             "collab_experience": "Sí, estoy acostumbrado a equipos multidisciplinarios.",
             "curiosity_tech": "🎮 Desarrollo de Videojuegos (Unity, Unreal).",
             "weekly_hours": "Entre 5 y 10 horas a la semana.",
-            "attendance_score": 0.0,
-            "attendance_sessions": 0,
-            "attendance_total_sessions": 23,
-            "attendance_sessions_general": 0,
-            "attendance_sessions_11": 0
+            "autonomy_score": 1.35,
+            "attendance_score": 1.09
           }
         }
-      ],
-      "qualitative_profile": {
-        "attendance_score": 0.27
-      }
+      ]
     },
     {
       "id": 17,
       "team_name": "NubePleys",
       "project_name": "NubePleys",
       "description": "NubePleys es una empresa tecnológica diseñada como un mercado online estratégico para\nfortalecer el comercio nacional en Nicaragua. Actúa como una plataforma que crea canales de\nventa para las principales tiendas del país, impulsando el desarrollo económico a través de la\ndigitalización segura.",
-      "metrics": {
-        "member_count": 1,
-        "skill_averages": {
-          "programming": 4.0,
-          "infra_db": 3.0,
-          "design": 5.0,
-          "ai": 3.0,
-          "english": 2.0
+      "strategic_metrics": {
+        "trl": 2.63,
+        "ori": {
+          "score": 31.5,
+          "level": "LOW",
+          "components": {
+            "logistic": 0.0,
+            "collab": 35.0,
+            "structural": 70.0
+          }
         },
-        "role_distribution": {
-          "backend": 1
+        "role_gaps": [
+          "Missing Frontend/Design",
+          "Missing Leadership/Business"
+        ],
+        "member_count": 1,
+        "has_senior_dev": false
+      },
+      "qualitative_profile": {
+        "academic_origin": "Universidad Pública",
+        "learning_style": "Autosuficiente (Digital/IA)",
+        "territorial_index": "Centralizado (Estelí)",
+        "autonomy_score": 3.05,
+        "cohesion_score": 5.0,
+        "attendance_score": 0.22,
+        "all_institutions": [
+          "Universidad Pública"
+        ],
+        "all_departments": [
+          "Estelí"
+        ]
+      },
+      "averages": {
+        "skill_programming": 4.0,
+        "skill_infra_db": 3.0,
+        "skill_design": 5.0,
+        "skill_ai": 3.0,
+        "english_level": 2.0
+      },
+      "dispersion": {
+        "skill_programming": {
+          "floor": 4,
+          "std": 0.0
+        },
+        "skill_infra_db": {
+          "floor": 3,
+          "std": 0.0
+        },
+        "skill_design": {
+          "floor": 5,
+          "std": 0.0
+        },
+        "skill_ai": {
+          "floor": 3,
+          "std": 0.0
+        },
+        "english_level": {
+          "floor": 2,
+          "std": 0.0
         }
+      },
+      "role_distribution": {
+        "backend": 1
       },
       "members": [
         {
           "id": 59,
           "full_name": "Alinstong Jared Rodriguez Molina ",
           "email": "alin23rodriguez@gmail.com",
-          "timestamp": "29/5/2026 10:21:54",
-          "context": {
-            "residence_dept": "Estelí",
-            "study_center_type": "Universidad Pública",
-            "career_area": "design",
-            "main_role": "backend",
-            "has_equipment": "Sí, tengo PC/Laptop y buen internet."
-          },
+          "role": "backend",
+          "dept": "Estelí",
+          "career": "design",
+          "institution": "Universidad Pública",
           "skills": {
             "programming": 4,
             "infra_db": 3,
             "design": 5,
             "ai": 3,
             "english": 2
+          },
+          "flags": {
+            "no_equipment": false,
+            "low_time": false
           },
           "qualitative": {
             "learning_method": "🎥 Autodidacta vía YouTube / Tutoriales web.",
@@ -2225,58 +2892,105 @@
             "collab_experience": "Sí, estoy acostumbrado a equipos multidisciplinarios.",
             "curiosity_tech": "🎮 Desarrollo de Videojuegos (Unity, Unreal).",
             "weekly_hours": "Entre 10 y 20 horas a la semana.",
-            "attendance_score": 0.0,
-            "attendance_sessions": 0,
-            "attendance_total_sessions": 23,
-            "attendance_sessions_general": 0,
-            "attendance_sessions_11": 0
+            "autonomy_score": 3.05,
+            "attendance_score": 0.22
           }
         }
-      ],
-      "qualitative_profile": {
-        "attendance_score": 0.0
-      }
+      ]
     },
     {
       "id": 18,
       "team_name": "Phinn",
       "project_name": "Phinn",
       "description": "Phinn es una plataforma web (SaaS) de inteligencia y análisis financiero, diseñado para PYMES. Lo hace ingiriendo datos contables crudos y procesándolos mediante un motor matemático junto a un asistente de IA, que traduce el resultado de los análisis técnicos a diagnósticos visuales y en lenguaje digerible. Sus recomendaciones se respaldan en matemáticas rígidas y detalladas.\nA diferencia del software corporativo tradicional complejo, Phinn elimina la barrera técnica ofreciendo una \"curva de aprendizaje cero\" y educación integrada. permitiendo que el dueño del negocio tome decisiones certeras sin necesidad de ser un experto",
-      "metrics": {
-        "member_count": 5,
-        "skill_averages": {
-          "programming": 2.2,
-          "infra_db": 2.0,
-          "design": 3.4,
-          "ai": 3.6,
-          "english": 4.0
+      "strategic_metrics": {
+        "trl": 2.62,
+        "ori": {
+          "score": 11.7,
+          "level": "LOW",
+          "components": {
+            "logistic": 0.0,
+            "collab": 39.0,
+            "structural": 0.0
+          }
         },
-        "role_distribution": {
-          "frontend": 1,
-          "pm_leadership": 1,
-          "data_ai": 1,
-          "marketing": 2
+        "role_gaps": [
+          "Missing Backend/Architecture"
+        ],
+        "member_count": 5,
+        "has_senior_dev": true
+      },
+      "qualitative_profile": {
+        "academic_origin": "Universidad Pública",
+        "learning_style": "Autosuficiente (Digital/IA)",
+        "territorial_index": "Distribuido",
+        "autonomy_score": 2.91,
+        "cohesion_score": 2.2,
+        "attendance_score": 0.43,
+        "all_institutions": [
+          "Universidad Pública",
+          "Universidad Privada"
+        ],
+        "all_departments": [
+          "Managua",
+          "Rivas",
+          "Masaya"
+        ]
+      },
+      "averages": {
+        "skill_programming": 2.2,
+        "skill_infra_db": 2.0,
+        "skill_design": 3.4,
+        "skill_ai": 3.6,
+        "english_level": 4.0
+      },
+      "dispersion": {
+        "skill_programming": {
+          "floor": 0,
+          "std": 1.94
+        },
+        "skill_infra_db": {
+          "floor": 0,
+          "std": 1.67
+        },
+        "skill_design": {
+          "floor": 3,
+          "std": 0.8
+        },
+        "skill_ai": {
+          "floor": 2,
+          "std": 1.02
+        },
+        "english_level": {
+          "floor": 3,
+          "std": 0.89
         }
+      },
+      "role_distribution": {
+        "frontend": 1,
+        "pm_leadership": 1,
+        "data_ai": 1,
+        "marketing": 2
       },
       "members": [
         {
           "id": 5,
           "full_name": "Carlos Fernando Guerrero Bonilla.",
           "email": "carlosboni9999@gmail.com",
-          "timestamp": "23/5/2026 15:15:56",
-          "context": {
-            "residence_dept": "Masaya",
-            "study_center_type": "Universidad Pública",
-            "career_area": "tech_systems",
-            "main_role": "frontend",
-            "has_equipment": "Sí, tengo PC/Laptop y buen internet."
-          },
+          "role": "frontend",
+          "dept": "Masaya",
+          "career": "tech_systems",
+          "institution": "Universidad Pública",
           "skills": {
             "programming": 3,
             "infra_db": 3,
             "design": 3,
             "ai": 3,
             "english": 3
+          },
+          "flags": {
+            "no_equipment": false,
+            "low_time": false
           },
           "qualitative": {
             "learning_method": "🏫 Clases formales en mi Universidad / Centro Técnico.",
@@ -2286,31 +3000,28 @@
             "collab_experience": "Sí, estoy acostumbrado a equipos multidisciplinarios.",
             "curiosity_tech": "🤖 Robótica, Internet de las Cosas (IoT) o Electrónica básica.",
             "weekly_hours": "Entre 5 y 10 horas a la semana.",
-            "attendance_score": 0.65,
-            "attendance_sessions": 3,
-            "attendance_total_sessions": 23,
-            "attendance_sessions_general": 2,
-            "attendance_sessions_11": 1
+            "autonomy_score": 3.75,
+            "attendance_score": 0.43
           }
         },
         {
           "id": 12,
           "full_name": "Carlos Francisco Fajardo Lamelas",
           "email": "carlosfajardo7699@gmail.com",
-          "timestamp": "23/5/2026 15:19:09",
-          "context": {
-            "residence_dept": "Managua",
-            "study_center_type": "Universidad Pública",
-            "career_area": "engineering",
-            "main_role": "pm_leadership",
-            "has_equipment": "Tengo PC/Laptop, pero el internet es limitado/inestable."
-          },
+          "role": "pm_leadership",
+          "dept": "Managua",
+          "career": "engineering",
+          "institution": "Universidad Pública",
           "skills": {
             "programming": 3,
             "infra_db": 3,
             "design": 5,
             "ai": 4,
             "english": 5
+          },
+          "flags": {
+            "no_equipment": false,
+            "low_time": false
           },
           "qualitative": {
             "learning_method": "🎥 Autodidacta vía YouTube / Tutoriales web.",
@@ -2320,31 +3031,28 @@
             "collab_experience": "Sí, estoy acostumbrado a equipos multidisciplinarios.",
             "curiosity_tech": "📊 Análisis de Datos Avanzado.",
             "weekly_hours": "Tiempo completo (Más de 20 horas).",
-            "attendance_score": 1.3,
-            "attendance_sessions": 6,
-            "attendance_total_sessions": 23,
-            "attendance_sessions_general": 5,
-            "attendance_sessions_11": 1
+            "autonomy_score": 4.2,
+            "attendance_score": 0.43
           }
         },
         {
           "id": 21,
           "full_name": "Carlos Fernando Muñoz Perez",
           "email": "fernandoperez15140@gmail.com",
-          "timestamp": "23/5/2026 15:32:10",
-          "context": {
-            "residence_dept": "Rivas",
-            "study_center_type": "Universidad Pública",
-            "career_area": "tech_systems",
-            "main_role": "data_ai",
-            "has_equipment": "Tengo PC/Laptop, pero el internet es limitado/inestable."
-          },
+          "role": "data_ai",
+          "dept": "Rivas",
+          "career": "tech_systems",
+          "institution": "Universidad Pública",
           "skills": {
             "programming": 5,
             "infra_db": 4,
             "design": 3,
             "ai": 5,
             "english": 3
+          },
+          "flags": {
+            "no_equipment": false,
+            "low_time": false
           },
           "qualitative": {
             "learning_method": "todos los anteriores",
@@ -2354,31 +3062,28 @@
             "collab_experience": "Sí, estoy acostumbrado a equipos multidisciplinarios.",
             "curiosity_tech": "📊 Análisis de Datos Avanzado.",
             "weekly_hours": "Entre 10 y 20 horas a la semana.",
-            "attendance_score": 0.43,
-            "attendance_sessions": 2,
-            "attendance_total_sessions": 23,
-            "attendance_sessions_general": 2,
-            "attendance_sessions_11": 0
+            "autonomy_score": 4.8,
+            "attendance_score": 0.43
           }
         },
         {
           "id": 23,
           "full_name": "Sander Eduardo Guerrero Soza",
           "email": "gsandereduardo@gmail.com",
-          "timestamp": "23/5/2026 15:53:50",
-          "context": {
-            "residence_dept": "Managua",
-            "study_center_type": "Universidad Privada",
-            "career_area": "engineering",
-            "main_role": "marketing",
-            "has_equipment": "Sí, tengo PC/Laptop y buen internet."
-          },
+          "role": "marketing",
+          "dept": "Managua",
+          "career": "engineering",
+          "institution": "Universidad Privada",
           "skills": {
             "programming": 0,
             "infra_db": 0,
             "design": 3,
             "ai": 4,
             "english": 5
+          },
+          "flags": {
+            "no_equipment": false,
+            "low_time": false
           },
           "qualitative": {
             "learning_method": "🎥 Autodidacta vía YouTube / Tutoriales web.",
@@ -2388,31 +3093,28 @@
             "collab_experience": "No, nunca.",
             "curiosity_tech": "🤖 Robótica, Internet de las Cosas (IoT) o Electrónica básica.",
             "weekly_hours": "Entre 5 y 10 horas a la semana.",
-            "attendance_score": 0.0,
-            "attendance_sessions": 0,
-            "attendance_total_sessions": 23,
-            "attendance_sessions_general": 0,
-            "attendance_sessions_11": 0
+            "autonomy_score": 1.65,
+            "attendance_score": 0.43
           }
         },
         {
           "id": 26,
           "full_name": "Syndel Elizabeth Castro Martinez ",
           "email": "castrosyndel@gmail.com",
-          "timestamp": "23/5/2026 16:20:03",
-          "context": {
-            "residence_dept": "Managua",
-            "study_center_type": "Universidad Pública",
-            "career_area": "business",
-            "main_role": "marketing",
-            "has_equipment": "Sí, tengo PC/Laptop y buen internet."
-          },
+          "role": "marketing",
+          "dept": "Managua",
+          "career": "business",
+          "institution": "Universidad Pública",
           "skills": {
             "programming": 0,
             "infra_db": 0,
             "design": 3,
             "ai": 2,
             "english": 4
+          },
+          "flags": {
+            "no_equipment": false,
+            "low_time": false
           },
           "qualitative": {
             "learning_method": "🎥 Autodidacta vía YouTube / Tutoriales web.",
@@ -2422,58 +3124,102 @@
             "collab_experience": "No, nunca.",
             "curiosity_tech": "📊 Análisis de Datos Avanzado.",
             "weekly_hours": "Entre 5 y 10 horas a la semana.",
-            "attendance_score": 0.22,
-            "attendance_sessions": 1,
-            "attendance_total_sessions": 23,
-            "attendance_sessions_general": 0,
-            "attendance_sessions_11": 1
+            "autonomy_score": 0.15,
+            "attendance_score": 0.43
           }
         }
-      ],
-      "qualitative_profile": {
-        "attendance_score": 0.52
-      }
+      ]
     },
     {
       "id": 19,
       "team_name": "Power Rangers",
       "project_name": "NeoFluid3D",
       "description": "Simulador de dinámica de fluidos potenciado por GPU. NeoFluid3D es una aplicación de escritorio que no requiere conexión a internet ni base de datos, constituida como un simulador interactivo de fluidos local. Se define como una herramienta didáctica para la enseñanza de fenómenos físicos en ingenierías y como un recurso técnico de prototipado rápido virtual",
-      "metrics": {
-        "member_count": 5,
-        "skill_averages": {
-          "programming": 3.6,
-          "infra_db": 2.4,
-          "design": 3.4,
-          "ai": 3.2,
-          "english": 3.8
+      "strategic_metrics": {
+        "trl": 2.86,
+        "ori": {
+          "score": 19.9,
+          "level": "LOW",
+          "components": {
+            "logistic": 16.0,
+            "collab": 45.0,
+            "structural": 0.0
+          }
         },
-        "role_distribution": {
-          "backend": 1,
-          "frontend": 1,
-          "marketing": 2,
-          "pm_leadership": 1
+        "role_gaps": [],
+        "member_count": 5,
+        "has_senior_dev": true
+      },
+      "qualitative_profile": {
+        "academic_origin": "Universidad Pública",
+        "learning_style": "Autosuficiente (Digital/IA)",
+        "territorial_index": "Distribuido",
+        "autonomy_score": 3.21,
+        "cohesion_score": 2.6,
+        "attendance_score": 0.0,
+        "all_institutions": [
+          "Universidad Pública",
+          "Centro Tecnológico (INATEC)"
+        ],
+        "all_departments": [
+          "Managua",
+          "Granada"
+        ]
+      },
+      "averages": {
+        "skill_programming": 3.6,
+        "skill_infra_db": 2.4,
+        "skill_design": 3.4,
+        "skill_ai": 3.2,
+        "english_level": 3.8
+      },
+      "dispersion": {
+        "skill_programming": {
+          "floor": 3,
+          "std": 0.8
+        },
+        "skill_infra_db": {
+          "floor": 1,
+          "std": 1.2
+        },
+        "skill_design": {
+          "floor": 2,
+          "std": 1.02
+        },
+        "skill_ai": {
+          "floor": 2,
+          "std": 0.98
+        },
+        "english_level": {
+          "floor": 3,
+          "std": 0.75
         }
+      },
+      "role_distribution": {
+        "backend": 1,
+        "frontend": 1,
+        "marketing": 2,
+        "pm_leadership": 1
       },
       "members": [
         {
           "id": 36,
           "full_name": "Ángel Lenin Vivas Mena ",
           "email": "angelvivas1008@gmail.com",
-          "timestamp": "25/5/2026 11:08:01",
-          "context": {
-            "residence_dept": "Granada",
-            "study_center_type": "Universidad Pública",
-            "career_area": "tech_systems",
-            "main_role": "backend",
-            "has_equipment": "Sí, tengo PC/Laptop y buen internet."
-          },
+          "role": "backend",
+          "dept": "Granada",
+          "career": "tech_systems",
+          "institution": "Universidad Pública",
           "skills": {
             "programming": 5,
             "infra_db": 4,
             "design": 4,
             "ai": 5,
             "english": 5
+          },
+          "flags": {
+            "no_equipment": false,
+            "low_time": false
           },
           "qualitative": {
             "learning_method": "🎥 Autodidacta vía YouTube / Tutoriales web.",
@@ -2483,31 +3229,28 @@
             "collab_experience": "Muy poco, casi siempre trabajo solo o con gente de mi misma carrera.",
             "curiosity_tech": "🛡️ Ciberseguridad y Hacking Ético.",
             "weekly_hours": "Entre 5 y 10 horas a la semana.",
-            "attendance_score": 0.87,
-            "attendance_sessions": 4,
-            "attendance_total_sessions": 23,
-            "attendance_sessions_general": 3,
-            "attendance_sessions_11": 1
+            "autonomy_score": 4.35,
+            "attendance_score": 0.0
           }
         },
         {
           "id": 55,
           "full_name": "Brigham Stuart Medina Lara ",
           "email": "brighamlarapanyamor@gmail.com",
-          "timestamp": "29/5/2026 9:22:00",
-          "context": {
-            "residence_dept": "Managua",
-            "study_center_type": "Universidad Pública",
-            "career_area": "engineering",
-            "main_role": "frontend",
-            "has_equipment": "Tengo PC/Laptop, pero el internet es limitado/inestable."
-          },
+          "role": "frontend",
+          "dept": "Managua",
+          "career": "engineering",
+          "institution": "Universidad Pública",
           "skills": {
             "programming": 4,
             "infra_db": 3,
             "design": 3,
             "ai": 3,
             "english": 4
+          },
+          "flags": {
+            "no_equipment": false,
+            "low_time": true
           },
           "qualitative": {
             "learning_method": "🎥 Autodidacta vía YouTube / Tutoriales web.",
@@ -2517,31 +3260,28 @@
             "collab_experience": "Sí, estoy acostumbrado a equipos multidisciplinarios.",
             "curiosity_tech": "🛡️ Ciberseguridad y Hacking Ético.",
             "weekly_hours": "Menos de 5 horas a la semana.",
-            "attendance_score": 0.0,
-            "attendance_sessions": 0,
-            "attendance_total_sessions": 23,
-            "attendance_sessions_general": 0,
-            "attendance_sessions_11": 0
+            "autonomy_score": 3.05,
+            "attendance_score": 0.0
           }
         },
         {
           "id": 60,
           "full_name": "Jhonny Steven Martinez Olivares",
           "email": "stevenmartinez2404@gmail.com",
-          "timestamp": "29/5/2026 12:02:24",
-          "context": {
-            "residence_dept": "Managua",
-            "study_center_type": "Universidad Pública",
-            "career_area": "tech_systems",
-            "main_role": "marketing",
-            "has_equipment": "Sí, tengo PC/Laptop y buen internet."
-          },
+          "role": "marketing",
+          "dept": "Managua",
+          "career": "tech_systems",
+          "institution": "Universidad Pública",
           "skills": {
             "programming": 3,
             "infra_db": 1,
             "design": 2,
             "ai": 3,
             "english": 3
+          },
+          "flags": {
+            "no_equipment": false,
+            "low_time": false
           },
           "qualitative": {
             "learning_method": "🎥 Autodidacta vía YouTube / Tutoriales web.",
@@ -2551,31 +3291,28 @@
             "collab_experience": "Sí, estoy acostumbrado a equipos multidisciplinarios.",
             "curiosity_tech": "🛡️ Ciberseguridad y Hacking Ético.",
             "weekly_hours": "Entre 5 y 10 horas a la semana.",
-            "attendance_score": 0.0,
-            "attendance_sessions": 0,
-            "attendance_total_sessions": 23,
-            "attendance_sessions_general": 0,
-            "attendance_sessions_11": 0
+            "autonomy_score": 3.35,
+            "attendance_score": 0.0
           }
         },
         {
           "id": 62,
           "full_name": "Ernesto Gabriel Sanchez Espinosa ",
           "email": "ernestogabrielsanchezespinosa@gmail.com",
-          "timestamp": "29/5/2026 12:08:06",
-          "context": {
-            "residence_dept": "Managua",
-            "study_center_type": "Centro Tecnológico (INATEC)",
-            "career_area": "tech_systems",
-            "main_role": "pm_leadership",
-            "has_equipment": "Sí, tengo PC/Laptop y buen internet."
-          },
+          "role": "pm_leadership",
+          "dept": "Managua",
+          "career": "tech_systems",
+          "institution": "Centro Tecnológico (INATEC)",
           "skills": {
             "programming": 3,
             "infra_db": 3,
             "design": 5,
             "ai": 2,
             "english": 4
+          },
+          "flags": {
+            "no_equipment": false,
+            "low_time": false
           },
           "qualitative": {
             "learning_method": "🎥 Autodidacta vía YouTube / Tutoriales web.",
@@ -2585,31 +3322,28 @@
             "collab_experience": "Sí, estoy acostumbrado a equipos multidisciplinarios.",
             "curiosity_tech": "🤖 Robótica, Internet de las Cosas (IoT) o Electrónica básica.",
             "weekly_hours": "Entre 5 y 10 horas a la semana.",
-            "attendance_score": 0.43,
-            "attendance_sessions": 2,
-            "attendance_total_sessions": 23,
-            "attendance_sessions_general": 1,
-            "attendance_sessions_11": 1
+            "autonomy_score": 2.85,
+            "attendance_score": 0.0
           }
         },
         {
           "id": 75,
           "full_name": "Ashly Auxiliadora Miranda Monge ",
           "email": "mirandamongeashlyauxiliadora@gmail.com",
-          "timestamp": "1/6/2026 20:05:47",
-          "context": {
-            "residence_dept": "Granada",
-            "study_center_type": "Universidad Pública",
-            "career_area": "engineering",
-            "main_role": "marketing",
-            "has_equipment": "Sí, tengo PC/Laptop y buen internet."
-          },
+          "role": "marketing",
+          "dept": "Granada",
+          "career": "engineering",
+          "institution": "Universidad Pública",
           "skills": {
             "programming": 3,
             "infra_db": 1,
             "design": 3,
             "ai": 3,
             "english": 3
+          },
+          "flags": {
+            "no_equipment": false,
+            "low_time": true
           },
           "qualitative": {
             "learning_method": "🤖 Consultando a Inteligencias Artificiales (ChatGPT, etc).",
@@ -2619,56 +3353,99 @@
             "collab_experience": "No, nunca.",
             "curiosity_tech": "🛡️ Ciberseguridad y Hacking Ético.",
             "weekly_hours": "Menos de 5 horas a la semana.",
-            "attendance_score": 0.87,
-            "attendance_sessions": 4,
-            "attendance_total_sessions": 23,
-            "attendance_sessions_general": 3,
-            "attendance_sessions_11": 1
+            "autonomy_score": 2.45,
+            "attendance_score": 0.0
           }
         }
-      ],
-      "qualitative_profile": {
-        "attendance_score": 0.43
-      }
+      ]
     },
     {
       "id": 20,
       "team_name": "Retina Care",
       "project_name": "Retina Care",
       "description": "App móvil sencilla e intuitiva para la detección temprana de retinopatía diabética: el usuario captura o sube una foto de la retina, la app usa IA basada en redes neuronales convolucionales (CNN) para analizar la imagen y ofrecer un resultado de triage (posible retinopatía / sin hallazgos). Entrega explicaciones claras y fáciles de entender, recomendaciones sobre qué hacer y sugiere oftalmólogos locales para una valoración presencial. Su objetivo es ayudar a prevenir complicaciones mediante detecciones tempranas y derivaciones oportunas, no sustituir el diagnóstico médico.",
-      "metrics": {
-        "member_count": 2,
-        "skill_averages": {
-          "programming": 2.5,
-          "infra_db": 1.5,
-          "design": 2.5,
-          "ai": 5.0,
-          "english": 3.0
+      "strategic_metrics": {
+        "trl": 2.45,
+        "ori": {
+          "score": 35.2,
+          "level": "MODERATE",
+          "components": {
+            "logistic": 30.0,
+            "collab": 47.5,
+            "structural": 30.0
+          }
         },
-        "role_distribution": {
-          "full_stack": 1,
-          "marketing": 1
+        "role_gaps": [],
+        "member_count": 2,
+        "has_senior_dev": true
+      },
+      "qualitative_profile": {
+        "academic_origin": "Universidad Pública",
+        "learning_style": "Autosuficiente (Digital/IA)",
+        "territorial_index": "Distribuido",
+        "autonomy_score": 2.9,
+        "cohesion_score": 2.5,
+        "attendance_score": 1.3,
+        "all_institutions": [
+          "Universidad Pública"
+        ],
+        "all_departments": [
+          "Chinandega",
+          "León"
+        ]
+      },
+      "averages": {
+        "skill_programming": 2.5,
+        "skill_infra_db": 1.5,
+        "skill_design": 2.5,
+        "skill_ai": 5.0,
+        "english_level": 3.0
+      },
+      "dispersion": {
+        "skill_programming": {
+          "floor": 1,
+          "std": 1.5
+        },
+        "skill_infra_db": {
+          "floor": 0,
+          "std": 1.5
+        },
+        "skill_design": {
+          "floor": 2,
+          "std": 0.5
+        },
+        "skill_ai": {
+          "floor": 5,
+          "std": 0.0
+        },
+        "english_level": {
+          "floor": 3,
+          "std": 0.0
         }
+      },
+      "role_distribution": {
+        "full_stack": 1,
+        "marketing": 1
       },
       "members": [
         {
           "id": 64,
           "full_name": "John Steven Tigerino Fonseca",
           "email": "johntigerino2103@gmail.com",
-          "timestamp": "29/5/2026 16:49:05",
-          "context": {
-            "residence_dept": "Chinandega",
-            "study_center_type": "Universidad Pública",
-            "career_area": "tech_systems",
-            "main_role": "full_stack",
-            "has_equipment": "Tengo PC/Laptop, pero el internet es limitado/inestable."
-          },
+          "role": "full_stack",
+          "dept": "Chinandega",
+          "career": "tech_systems",
+          "institution": "Universidad Pública",
           "skills": {
             "programming": 4,
             "infra_db": 3,
             "design": 3,
             "ai": 5,
             "english": 3
+          },
+          "flags": {
+            "no_equipment": false,
+            "low_time": false
           },
           "qualitative": {
             "learning_method": "Ocupo las 3 ultimas opciones, cursos, youtube y usando IAs",
@@ -2678,31 +3455,28 @@
             "collab_experience": "Muy poco, casi siempre trabajo solo o con gente de mi misma carrera.",
             "curiosity_tech": "🛡️ Ciberseguridad y Hacking Ético.",
             "weekly_hours": "Entre 5 y 10 horas a la semana.",
-            "attendance_score": 0.65,
-            "attendance_sessions": 3,
-            "attendance_total_sessions": 23,
-            "attendance_sessions_general": 3,
-            "attendance_sessions_11": 0
+            "autonomy_score": 3.95,
+            "attendance_score": 1.3
           }
         },
         {
           "id": 73,
           "full_name": "Massiel Cristina Torrez Rueda ",
           "email": "massielt054@gmail.com",
-          "timestamp": "1/6/2026 11:08:24",
-          "context": {
-            "residence_dept": "León",
-            "study_center_type": "Universidad Pública",
-            "career_area": "business",
-            "main_role": "marketing",
-            "has_equipment": "Solo utilizo mi teléfono móvil / Tablet."
-          },
+          "role": "marketing",
+          "dept": "León",
+          "career": "business",
+          "institution": "Universidad Pública",
           "skills": {
             "programming": 1,
             "infra_db": 0,
             "design": 2,
             "ai": 5,
             "english": 3
+          },
+          "flags": {
+            "no_equipment": true,
+            "low_time": false
           },
           "qualitative": {
             "learning_method": "🎥 Autodidacta vía YouTube / Tutoriales web.",
@@ -2712,55 +3486,100 @@
             "collab_experience": "Sí, estoy acostumbrado a equipos multidisciplinarios.",
             "curiosity_tech": "📊 Análisis de Datos Avanzado.",
             "weekly_hours": "Entre 5 y 10 horas a la semana.",
-            "attendance_score": 0.43,
-            "attendance_sessions": 2,
-            "attendance_total_sessions": 23,
-            "attendance_sessions_general": 2,
-            "attendance_sessions_11": 0
+            "autonomy_score": 1.85,
+            "attendance_score": 1.3
           }
         }
-      ],
-      "qualitative_profile": {
-        "attendance_score": 0.54
-      }
+      ]
     },
     {
       "id": 21,
       "team_name": "Ruteo",
       "project_name": "Ruta inteligente",
       "description": "Ruteo es una aplicación móvil enfocada en la modernización de la movilidad urbana en la ciudad de Granada. El proyecto consiste en una plataforma digital interactiva que mapea y centraliza la red de transporte público. Su objetivo principal es permitir a los pasajeros consultar de forma rápida y sencilla las distintas rutas disponibles, zonas de cobertura y horarios, apoyándose en la geolocalización para eliminar la incertidumbre, reducir los tiempos de espera y optimizar el traslado diario de los usuarios.",
-      "metrics": {
-        "member_count": 2,
-        "skill_averages": {
-          "programming": 3.5,
-          "infra_db": 3.0,
-          "design": 3.0,
-          "ai": 4.0,
-          "english": 3.0
+      "strategic_metrics": {
+        "trl": 3.02,
+        "ori": {
+          "score": 26.0,
+          "level": "LOW",
+          "components": {
+            "logistic": 20.0,
+            "collab": 30.0,
+            "structural": 30.0
+          }
         },
-        "role_distribution": {
-          "frontend": 2
+        "role_gaps": [
+          "Missing Backend/Architecture",
+          "Missing Leadership/Business"
+        ],
+        "member_count": 2,
+        "has_senior_dev": true
+      },
+      "qualitative_profile": {
+        "academic_origin": "Universidad Pública",
+        "learning_style": "Autosuficiente (Digital/IA)",
+        "territorial_index": "Centralizado (Granada)",
+        "autonomy_score": 3.62,
+        "cohesion_score": 5.0,
+        "attendance_score": 0.87,
+        "all_institutions": [
+          "Universidad Pública"
+        ],
+        "all_departments": [
+          "Granada"
+        ]
+      },
+      "averages": {
+        "skill_programming": 3.5,
+        "skill_infra_db": 3.0,
+        "skill_design": 3.0,
+        "skill_ai": 4.0,
+        "english_level": 3.0
+      },
+      "dispersion": {
+        "skill_programming": {
+          "floor": 3,
+          "std": 0.5
+        },
+        "skill_infra_db": {
+          "floor": 3,
+          "std": 0.0
+        },
+        "skill_design": {
+          "floor": 2,
+          "std": 1.0
+        },
+        "skill_ai": {
+          "floor": 3,
+          "std": 1.0
+        },
+        "english_level": {
+          "floor": 2,
+          "std": 1.0
         }
+      },
+      "role_distribution": {
+        "frontend": 2
       },
       "members": [
         {
           "id": 74,
           "full_name": "Guillermo Alberto Mendez Castro ",
           "email": "mendezcastroguillermo22@gmail.com",
-          "timestamp": "1/6/2026 19:10:07",
-          "context": {
-            "residence_dept": "Granada",
-            "study_center_type": "Universidad Pública",
-            "career_area": "tech_systems",
-            "main_role": "frontend",
-            "has_equipment": "Sí, tengo PC/Laptop y buen internet."
-          },
+          "role": "frontend",
+          "dept": "Granada",
+          "career": "tech_systems",
+          "institution": "Universidad Pública",
           "skills": {
             "programming": 4,
             "infra_db": 3,
             "design": 4,
             "ai": 3,
             "english": 4
+          },
+          "flags": {
+            "no_equipment": false,
+            "low_time": true
           },
           "qualitative": {
             "learning_method": "🎥 Autodidacta vía YouTube / Tutoriales web.",
@@ -2770,31 +3589,28 @@
             "collab_experience": "Sí, estoy acostumbrado a equipos multidisciplinarios.",
             "curiosity_tech": "🛡️ Ciberseguridad y Hacking Ético.",
             "weekly_hours": "Menos de 5 horas a la semana.",
-            "attendance_score": 0.0,
-            "attendance_sessions": 0,
-            "attendance_total_sessions": 23,
-            "attendance_sessions_general": 0,
-            "attendance_sessions_11": 0
+            "autonomy_score": 3.05,
+            "attendance_score": 0.87
           }
         },
         {
           "id": 79,
           "full_name": "Bryan Onell de martinez",
           "email": "bryannunez682@gmail.com",
-          "timestamp": "2/6/2026 18:45:42",
-          "context": {
-            "residence_dept": "Granada",
-            "study_center_type": "Universidad Pública",
-            "career_area": "tech_systems",
-            "main_role": "frontend",
-            "has_equipment": "Tengo PC/Laptop, pero el internet es limitado/inestable."
-          },
+          "role": "frontend",
+          "dept": "Granada",
+          "career": "tech_systems",
+          "institution": "Universidad Pública",
           "skills": {
             "programming": 3,
             "infra_db": 3,
             "design": 2,
             "ai": 5,
             "english": 2
+          },
+          "flags": {
+            "no_equipment": false,
+            "low_time": false
           },
           "qualitative": {
             "learning_method": "🤖 Consultando a Inteligencias Artificiales (ChatGPT, etc).",
@@ -2804,57 +3620,100 @@
             "collab_experience": "Muy poco, casi siempre trabajo solo o con gente de mi misma carrera.",
             "curiosity_tech": "🛡️ Ciberseguridad y Hacking Ético.",
             "weekly_hours": "Entre 5 y 10 horas a la semana.",
-            "attendance_score": 0.0,
-            "attendance_sessions": 0,
-            "attendance_total_sessions": 23,
-            "attendance_sessions_general": 0,
-            "attendance_sessions_11": 0
+            "autonomy_score": 4.2,
+            "attendance_score": 0.87
           }
         }
-      ],
-      "qualitative_profile": {
-        "attendance_score": 0.0
-      }
+      ]
     },
     {
       "id": 22,
       "team_name": "Sui",
       "project_name": "Sui",
       "description": "SUI es tu asistente médico virtual basado en inteligencia artificial, diseñado para transformar la gestión de tu bienestar. A través de una plataforma web y móvil, SUI centraliza el control de tu actividad física, tus hábitos y tu salud mental.\n\nAl integrarse con tus dispositivos wearables, la plataforma te ofrece recomendaciones en tiempo real y un seguimiento detallado de tus indicadores físicos. SUI se adapta a tus necesidades diarias para acompañarte en cada paso hacia una vida más saludable mediante herramientas de análisis y soporte personalizado.",
-      "metrics": {
-        "member_count": 9,
-        "skill_averages": {
-          "programming": 2.33,
-          "infra_db": 1.89,
-          "design": 3.0,
-          "ai": 3.67,
-          "english": 3.22
+      "strategic_metrics": {
+        "trl": 2.29,
+        "ori": {
+          "score": 17.6,
+          "level": "LOW",
+          "components": {
+            "logistic": 8.9,
+            "collab": 46.7,
+            "structural": 0.0
+          }
         },
-        "role_distribution": {
-          "backend": 4,
-          "marketing": 2,
-          "ux_ui": 3
+        "role_gaps": [],
+        "member_count": 9,
+        "has_senior_dev": true
+      },
+      "qualitative_profile": {
+        "academic_origin": "Universidad Pública",
+        "learning_style": "Autosuficiente (Digital/IA)",
+        "territorial_index": "Centralizado (Managua)",
+        "autonomy_score": 2.68,
+        "cohesion_score": 5.0,
+        "attendance_score": 1.09,
+        "all_institutions": [
+          "Universidad Pública",
+          "Universidad Privada"
+        ],
+        "all_departments": [
+          "Managua"
+        ]
+      },
+      "averages": {
+        "skill_programming": 2.33,
+        "skill_infra_db": 1.89,
+        "skill_design": 3.0,
+        "skill_ai": 3.67,
+        "english_level": 3.22
+      },
+      "dispersion": {
+        "skill_programming": {
+          "floor": 0,
+          "std": 1.7
+        },
+        "skill_infra_db": {
+          "floor": 0,
+          "std": 1.37
+        },
+        "skill_design": {
+          "floor": 1,
+          "std": 1.56
+        },
+        "skill_ai": {
+          "floor": 2,
+          "std": 1.05
+        },
+        "english_level": {
+          "floor": 0,
+          "std": 1.75
         }
+      },
+      "role_distribution": {
+        "backend": 4,
+        "marketing": 2,
+        "ux_ui": 3
       },
       "members": [
         {
           "id": 7,
           "full_name": "Walter Uriel Solorzano Zamora",
           "email": "wsolorzano7899@gmail.com",
-          "timestamp": "23/5/2026 15:17:25",
-          "context": {
-            "residence_dept": "Managua",
-            "study_center_type": "Universidad Pública",
-            "career_area": "tech_systems",
-            "main_role": "backend",
-            "has_equipment": "Sí, tengo PC/Laptop y buen internet."
-          },
+          "role": "backend",
+          "dept": "Managua",
+          "career": "tech_systems",
+          "institution": "Universidad Pública",
           "skills": {
             "programming": 4,
             "infra_db": 4,
             "design": 1,
             "ai": 3,
             "english": 5
+          },
+          "flags": {
+            "no_equipment": false,
+            "low_time": false
           },
           "qualitative": {
             "learning_method": "🎥 Autodidacta vía YouTube / Tutoriales web.",
@@ -2864,31 +3723,28 @@
             "collab_experience": "Muy poco, casi siempre trabajo solo o con gente de mi misma carrera.",
             "curiosity_tech": "🎮 Desarrollo de Videojuegos (Unity, Unreal).",
             "weekly_hours": "Entre 5 y 10 horas a la semana.",
-            "attendance_score": 0.22,
-            "attendance_sessions": 1,
-            "attendance_total_sessions": 23,
-            "attendance_sessions_general": 1,
-            "attendance_sessions_11": 0
+            "autonomy_score": 3.25,
+            "attendance_score": 1.09
           }
         },
         {
           "id": 32,
           "full_name": "Gerson Isaías Ramírez Ortega ",
           "email": "giramirezo@uamv.edu.ni",
-          "timestamp": "25/5/2026 9:54:57",
-          "context": {
-            "residence_dept": "Managua",
-            "study_center_type": "Universidad Privada",
-            "career_area": "communication",
-            "main_role": "marketing",
-            "has_equipment": "Sí, tengo PC/Laptop y buen internet."
-          },
+          "role": "marketing",
+          "dept": "Managua",
+          "career": "communication",
+          "institution": "Universidad Privada",
           "skills": {
             "programming": 2,
             "infra_db": 2,
             "design": 3,
             "ai": 5,
             "english": 4
+          },
+          "flags": {
+            "no_equipment": false,
+            "low_time": false
           },
           "qualitative": {
             "learning_method": "🏫 Clases formales en mi Universidad / Centro Técnico.",
@@ -2898,31 +3754,28 @@
             "collab_experience": "Sí, estoy acostumbrado a equipos multidisciplinarios.",
             "curiosity_tech": "📊 Análisis de Datos Avanzado.",
             "weekly_hours": "Entre 10 y 20 horas a la semana.",
-            "attendance_score": 0.22,
-            "attendance_sessions": 1,
-            "attendance_total_sessions": 23,
-            "attendance_sessions_general": 1,
-            "attendance_sessions_11": 0
+            "autonomy_score": 3.35,
+            "attendance_score": 1.09
           }
         },
         {
           "id": 33,
           "full_name": "Adriana Thaís Valdivia González ",
           "email": "adrivaldivia@uamv.edu.ni",
-          "timestamp": "25/5/2026 10:05:04",
-          "context": {
-            "residence_dept": "Managua",
-            "study_center_type": "Universidad Privada",
-            "career_area": "engineering",
-            "main_role": "marketing",
-            "has_equipment": "Sí, tengo PC/Laptop y buen internet."
-          },
+          "role": "marketing",
+          "dept": "Managua",
+          "career": "engineering",
+          "institution": "Universidad Privada",
           "skills": {
             "programming": 0,
             "infra_db": 0,
             "design": 3,
             "ai": 4,
             "english": 4
+          },
+          "flags": {
+            "no_equipment": false,
+            "low_time": false
           },
           "qualitative": {
             "learning_method": "🤖 Consultando a Inteligencias Artificiales (ChatGPT, etc).",
@@ -2932,31 +3785,28 @@
             "collab_experience": "Sí, estoy acostumbrado a equipos multidisciplinarios.",
             "curiosity_tech": "🎮 Desarrollo de Videojuegos (Unity, Unreal).",
             "weekly_hours": "Entre 5 y 10 horas a la semana.",
-            "attendance_score": 0.0,
-            "attendance_sessions": 0,
-            "attendance_total_sessions": 23,
-            "attendance_sessions_general": 0,
-            "attendance_sessions_11": 0
+            "autonomy_score": 0.15,
+            "attendance_score": 1.09
           }
         },
         {
           "id": 41,
           "full_name": "Marcos Adrian Cardoza Espinoza",
           "email": "mcardoza@uamv.edu.ni",
-          "timestamp": "25/5/2026 20:04:08",
-          "context": {
-            "residence_dept": "Managua",
-            "study_center_type": "Universidad Privada",
-            "career_area": "communication",
-            "main_role": "ux_ui",
-            "has_equipment": "Sí, tengo PC/Laptop y buen internet."
-          },
+          "role": "ux_ui",
+          "dept": "Managua",
+          "career": "communication",
+          "institution": "Universidad Privada",
           "skills": {
             "programming": 0,
             "infra_db": 0,
             "design": 5,
             "ai": 5,
             "english": 2
+          },
+          "flags": {
+            "no_equipment": false,
+            "low_time": false
           },
           "qualitative": {
             "learning_method": "Autodidacta.",
@@ -2966,31 +3816,28 @@
             "collab_experience": "Sí, estoy acostumbrado a equipos multidisciplinarios.",
             "curiosity_tech": "📊 Análisis de Datos Avanzado.",
             "weekly_hours": "Entre 5 y 10 horas a la semana.",
-            "attendance_score": 0.22,
-            "attendance_sessions": 1,
-            "attendance_total_sessions": 23,
-            "attendance_sessions_general": 1,
-            "attendance_sessions_11": 0
+            "autonomy_score": 1.65,
+            "attendance_score": 1.09
           }
         },
         {
           "id": 50,
           "full_name": "Rutsamy Angeline Acevedo Velázquez ",
           "email": "rangelinev08@gmail.com",
-          "timestamp": "26/5/2026 16:14:58",
-          "context": {
-            "residence_dept": "Managua",
-            "study_center_type": "Universidad Pública",
-            "career_area": "tech_systems",
-            "main_role": "ux_ui",
-            "has_equipment": "Sí, tengo PC/Laptop y buen internet."
-          },
+          "role": "ux_ui",
+          "dept": "Managua",
+          "career": "tech_systems",
+          "institution": "Universidad Pública",
           "skills": {
             "programming": 4,
             "infra_db": 4,
             "design": 5,
             "ai": 4,
             "english": 5
+          },
+          "flags": {
+            "no_equipment": false,
+            "low_time": false
           },
           "qualitative": {
             "learning_method": "📜 Cursos online de pago (Udemy, Platzi, Coursera).",
@@ -3000,31 +3847,28 @@
             "collab_experience": "Sí, estoy acostumbrado a equipos multidisciplinarios.",
             "curiosity_tech": "🛡️ Ciberseguridad y Hacking Ético.",
             "weekly_hours": "Entre 5 y 10 horas a la semana.",
-            "attendance_score": 0.0,
-            "attendance_sessions": 0,
-            "attendance_total_sessions": 23,
-            "attendance_sessions_general": 0,
-            "attendance_sessions_11": 0
+            "autonomy_score": 3.25,
+            "attendance_score": 1.09
           }
         },
         {
           "id": 56,
           "full_name": "Emily Alin Sandoval López ",
           "email": "emilyalins.l@gmail.com",
-          "timestamp": "29/5/2026 9:49:42",
-          "context": {
-            "residence_dept": "Managua",
-            "study_center_type": "Universidad Pública",
-            "career_area": "tech_systems",
-            "main_role": "ux_ui",
-            "has_equipment": "Sí, tengo PC/Laptop y buen internet."
-          },
+          "role": "ux_ui",
+          "dept": "Managua",
+          "career": "tech_systems",
+          "institution": "Universidad Pública",
           "skills": {
             "programming": 3,
             "infra_db": 2,
             "design": 4,
             "ai": 4,
             "english": 3
+          },
+          "flags": {
+            "no_equipment": false,
+            "low_time": false
           },
           "qualitative": {
             "learning_method": "🎥 Autodidacta vía YouTube / Tutoriales web.",
@@ -3034,31 +3878,28 @@
             "collab_experience": "Muy poco, casi siempre trabajo solo o con gente de mi misma carrera.",
             "curiosity_tech": "📊 Análisis de Datos Avanzado.",
             "weekly_hours": "Entre 5 y 10 horas a la semana.",
-            "attendance_score": 0.22,
-            "attendance_sessions": 1,
-            "attendance_total_sessions": 23,
-            "attendance_sessions_general": 1,
-            "attendance_sessions_11": 0
+            "autonomy_score": 4.0,
+            "attendance_score": 1.09
           }
         },
         {
           "id": 57,
           "full_name": "Holman Lennin Chamorro Mayén ",
           "email": "hlcmayen@gmail.com",
-          "timestamp": "29/5/2026 10:05:39",
-          "context": {
-            "residence_dept": "Managua",
-            "study_center_type": "Universidad Pública",
-            "career_area": "tech_systems",
-            "main_role": "backend",
-            "has_equipment": "Sí, tengo PC/Laptop y buen internet."
-          },
+          "role": "backend",
+          "dept": "Managua",
+          "career": "tech_systems",
+          "institution": "Universidad Pública",
           "skills": {
             "programming": 5,
             "infra_db": 2,
             "design": 4,
             "ai": 4,
             "english": 1
+          },
+          "flags": {
+            "no_equipment": false,
+            "low_time": true
           },
           "qualitative": {
             "learning_method": "🤖 Consultando a Inteligencias Artificiales (ChatGPT, etc).",
@@ -3068,31 +3909,28 @@
             "collab_experience": "Muy poco, casi siempre trabajo solo o con gente de mi misma carrera.",
             "curiosity_tech": "🛡️ Ciberseguridad y Hacking Ético.",
             "weekly_hours": "Menos de 5 horas a la semana.",
-            "attendance_score": 0.0,
-            "attendance_sessions": 0,
-            "attendance_total_sessions": 23,
-            "attendance_sessions_general": 0,
-            "attendance_sessions_11": 0
+            "autonomy_score": 3.95,
+            "attendance_score": 1.09
           }
         },
         {
           "id": 65,
           "full_name": "Leonardo Miguel Pérez García ",
           "email": "sasuke25080562@gmail.com",
-          "timestamp": "29/5/2026 17:36:18",
-          "context": {
-            "residence_dept": "Managua",
-            "study_center_type": "Universidad Pública",
-            "career_area": "engineering",
-            "main_role": "backend",
-            "has_equipment": "Sí, tengo PC/Laptop y buen internet."
-          },
+          "role": "backend",
+          "dept": "Managua",
+          "career": "engineering",
+          "institution": "Universidad Pública",
           "skills": {
             "programming": 2,
             "infra_db": 2,
             "design": 1,
             "ai": 2,
             "english": 0
+          },
+          "flags": {
+            "no_equipment": false,
+            "low_time": false
           },
           "qualitative": {
             "learning_method": "🎥 Autodidacta vía YouTube / Tutoriales web.",
@@ -3102,31 +3940,28 @@
             "collab_experience": "Sí, estoy acostumbrado a equipos multidisciplinarios.",
             "curiosity_tech": "🛡️ Ciberseguridad y Hacking Ético.",
             "weekly_hours": "Entre 5 y 10 horas a la semana.",
-            "attendance_score": 0.0,
-            "attendance_sessions": 0,
-            "attendance_total_sessions": 23,
-            "attendance_sessions_general": 0,
-            "attendance_sessions_11": 0
+            "autonomy_score": 2.45,
+            "attendance_score": 1.09
           }
         },
         {
           "id": 80,
           "full_name": "Kevin Alexander Browne Barbosa",
           "email": "kalbrowne@uamv.edu.ni",
-          "timestamp": "3/6/2026 9:02:42",
-          "context": {
-            "residence_dept": "Managua",
-            "study_center_type": "Universidad Privada",
-            "career_area": "tech_systems",
-            "main_role": "backend",
-            "has_equipment": "Sí, tengo PC/Laptop y buen internet."
-          },
+          "role": "backend",
+          "dept": "Managua",
+          "career": "tech_systems",
+          "institution": "Universidad Privada",
           "skills": {
             "programming": 1,
             "infra_db": 1,
             "design": 1,
             "ai": 2,
             "english": 5
+          },
+          "flags": {
+            "no_equipment": false,
+            "low_time": true
           },
           "qualitative": {
             "learning_method": "🏫 Clases formales en mi Universidad / Centro Técnico.",
@@ -3136,57 +3971,103 @@
             "collab_experience": "Muy poco, casi siempre trabajo solo o con gente de mi misma carrera.",
             "curiosity_tech": "🛡️ Ciberseguridad y Hacking Ético.",
             "weekly_hours": "Menos de 5 horas a la semana.",
-            "attendance_score": 0.0,
-            "attendance_sessions": 0,
-            "attendance_total_sessions": 23,
-            "attendance_sessions_general": 0,
-            "attendance_sessions_11": 0
+            "autonomy_score": 2.05,
+            "attendance_score": 1.09
           }
         }
-      ],
-      "qualitative_profile": {
-        "attendance_score": 0.1
-      }
+      ]
     },
     {
       "id": 23,
       "team_name": "URADEV",
       "project_name": "NicaBuy",
       "description": "NicaBuy es un proyecto de comercio electrónico que funciona como plataforma web y aplicación móvil (marketplace), desarrollado por el equipo UraDevs. La plataforma conecta a pequeños y medianos comercios nicaragüenses con consumidores, centralizando una amplia variedad de productos como artesanías, artículos artísticos, electrónica, hogar y belleza en un solo lugar. Ofrecemos reseñas verificadas, sistema de calificaciones y pagos seguros, con una logística centralizada que reduce los costos de envío para el comprador final.",
-      "metrics": {
-        "member_count": 4,
-        "skill_averages": {
-          "programming": 1.75,
-          "infra_db": 2.0,
-          "design": 3.5,
-          "ai": 4.5,
-          "english": 3.0
+      "strategic_metrics": {
+        "trl": 2.73,
+        "ori": {
+          "score": 30.2,
+          "level": "LOW",
+          "components": {
+            "logistic": 25.0,
+            "collab": 67.5,
+            "structural": 0.0
+          }
         },
-        "role_distribution": {
-          "ux_ui": 1,
-          "marketing": 2,
-          "frontend": 1
+        "role_gaps": [
+          "Missing Backend/Architecture"
+        ],
+        "member_count": 4,
+        "has_senior_dev": true
+      },
+      "qualitative_profile": {
+        "academic_origin": "Universidad Pública",
+        "learning_style": "Tradicional (Académico)",
+        "territorial_index": "Distribuido",
+        "autonomy_score": 2.1,
+        "cohesion_score": 3.12,
+        "attendance_score": 0.87,
+        "all_institutions": [
+          "Universidad Pública",
+          "Universidad Privada"
+        ],
+        "all_departments": [
+          "Managua",
+          "RACCN"
+        ]
+      },
+      "averages": {
+        "skill_programming": 1.75,
+        "skill_infra_db": 2.0,
+        "skill_design": 3.5,
+        "skill_ai": 4.5,
+        "english_level": 3.0
+      },
+      "dispersion": {
+        "skill_programming": {
+          "floor": 0,
+          "std": 1.09
+        },
+        "skill_infra_db": {
+          "floor": 0,
+          "std": 1.22
+        },
+        "skill_design": {
+          "floor": 3,
+          "std": 0.5
+        },
+        "skill_ai": {
+          "floor": 4,
+          "std": 0.5
+        },
+        "english_level": {
+          "floor": 2,
+          "std": 0.71
         }
+      },
+      "role_distribution": {
+        "ux_ui": 1,
+        "marketing": 2,
+        "frontend": 1
       },
       "members": [
         {
           "id": 76,
           "full_name": "Ian Said Osorio ",
           "email": "ytxandergamer@gmail.com",
-          "timestamp": "1/6/2026 20:10:41",
-          "context": {
-            "residence_dept": "RACCN",
-            "study_center_type": "Universidad Pública",
-            "career_area": "communication",
-            "main_role": "ux_ui",
-            "has_equipment": "Sí, tengo PC/Laptop y buen internet."
-          },
+          "role": "ux_ui",
+          "dept": "RACCN",
+          "career": "communication",
+          "institution": "Universidad Pública",
           "skills": {
             "programming": 2,
             "infra_db": 3,
             "design": 3,
             "ai": 5,
             "english": 4
+          },
+          "flags": {
+            "no_equipment": false,
+            "low_time": true
           },
           "qualitative": {
             "learning_method": "🤖 Consultando a Inteligencias Artificiales (ChatGPT, etc).",
@@ -3196,31 +4077,28 @@
             "collab_experience": "No, nunca.",
             "curiosity_tech": "🎮 Desarrollo de Videojuegos (Unity, Unreal).",
             "weekly_hours": "Menos de 5 horas a la semana.",
-            "attendance_score": 0.22,
-            "attendance_sessions": 1,
-            "attendance_total_sessions": 23,
-            "attendance_sessions_general": 1,
-            "attendance_sessions_11": 0
+            "autonomy_score": 1.15,
+            "attendance_score": 0.87
           }
         },
         {
           "id": 77,
           "full_name": "Rosa Alejandrina molina Sanders ",
           "email": "rosamolinasanders@gmail.com",
-          "timestamp": "1/6/2026 23:41:42",
-          "context": {
-            "residence_dept": "RACCN",
-            "study_center_type": "Universidad Pública",
-            "career_area": "tech_systems",
-            "main_role": "marketing",
-            "has_equipment": "No tengo equipo propio, dependo de laboratorios o cibercafés."
-          },
+          "role": "marketing",
+          "dept": "RACCN",
+          "career": "tech_systems",
+          "institution": "Universidad Pública",
           "skills": {
             "programming": 2,
             "infra_db": 2,
             "design": 3,
             "ai": 4,
             "english": 2
+          },
+          "flags": {
+            "no_equipment": true,
+            "low_time": false
           },
           "qualitative": {
             "learning_method": "🏫 Clases formales en mi Universidad / Centro Técnico.",
@@ -3230,31 +4108,28 @@
             "collab_experience": "No, nunca.",
             "curiosity_tech": "🛡️ Ciberseguridad y Hacking Ético.",
             "weekly_hours": "Entre 10 y 20 horas a la semana.",
-            "attendance_score": 0.0,
-            "attendance_sessions": 0,
-            "attendance_total_sessions": 23,
-            "attendance_sessions_general": 0,
-            "attendance_sessions_11": 0
+            "autonomy_score": 3.35,
+            "attendance_score": 0.87
           }
         },
         {
           "id": 78,
           "full_name": "Waymara Solmaira Serrano Castillo ",
           "email": "serranosolmaira@gmail.com",
-          "timestamp": "2/6/2026 7:51:07",
-          "context": {
-            "residence_dept": "RACCN",
-            "study_center_type": "Universidad Pública",
-            "career_area": "business",
-            "main_role": "marketing",
-            "has_equipment": "Sí, tengo PC/Laptop y buen internet."
-          },
+          "role": "marketing",
+          "dept": "RACCN",
+          "career": "business",
+          "institution": "Universidad Pública",
           "skills": {
             "programming": 0,
             "infra_db": 0,
             "design": 4,
             "ai": 4,
             "english": 3
+          },
+          "flags": {
+            "no_equipment": false,
+            "low_time": false
           },
           "qualitative": {
             "learning_method": "🏫 Clases formales en mi Universidad / Centro Técnico.",
@@ -3264,31 +4139,28 @@
             "collab_experience": "Sí, estoy acostumbrado a equipos multidisciplinarios.",
             "curiosity_tech": "🛡️ Ciberseguridad y Hacking Ético.",
             "weekly_hours": "Entre 5 y 10 horas a la semana.",
-            "attendance_score": 0.0,
-            "attendance_sessions": 0,
-            "attendance_total_sessions": 23,
-            "attendance_sessions_general": 0,
-            "attendance_sessions_11": 0
+            "autonomy_score": 1.05,
+            "attendance_score": 0.87
           }
         },
         {
           "id": 84,
           "full_name": "Valeria Carolina Grijalva Arévalo ",
           "email": "valegrijalva@uamv.edu.ni",
-          "timestamp": "13/7/2026 14:11:41",
-          "context": {
-            "residence_dept": "Managua",
-            "study_center_type": "Universidad Privada",
-            "career_area": "tech_systems",
-            "main_role": "frontend",
-            "has_equipment": "Sí, tengo PC/Laptop y buen internet."
-          },
+          "role": "frontend",
+          "dept": "Managua",
+          "career": "tech_systems",
+          "institution": "Universidad Privada",
           "skills": {
             "programming": 3,
             "infra_db": 3,
             "design": 4,
             "ai": 5,
             "english": 3
+          },
+          "flags": {
+            "no_equipment": false,
+            "low_time": false
           },
           "qualitative": {
             "learning_method": "🏫 Clases formales en mi Universidad / Centro Técnico.",
@@ -3298,57 +4170,102 @@
             "collab_experience": "Sí, estoy acostumbrado a equipos multidisciplinarios.",
             "curiosity_tech": "🛡️ Ciberseguridad y Hacking Ético.",
             "weekly_hours": "Entre 5 y 10 horas a la semana.",
-            "attendance_score": 1.09,
-            "attendance_sessions": 5,
-            "attendance_total_sessions": 23,
-            "attendance_sessions_general": 3,
-            "attendance_sessions_11": 2
+            "autonomy_score": 2.85,
+            "attendance_score": 0.87
           }
         }
-      ],
-      "qualitative_profile": {
-        "attendance_score": 0.33
-      }
+      ]
     },
     {
       "id": 24,
       "team_name": "VoxLab",
       "project_name": "VoxLab",
       "description": "VoxLab es una plataforma digital orientada al desarrollo de habilidades de comunicación oral en estudiantes universitarios. A través de herramientas de práctica, retroalimentación y simulación de escenarios reales, busca ayudar a los usuarios a fortalecer su confianza, mejorar su expresión verbal y reducir la ansiedad al hablar en público. El proyecto surge ante la necesidad identificada en estudiantes que enfrentan dificultades durante exposiciones, presentaciones e intervenciones académicas, impactando su desempeño y crecimiento profesional.",
-      "metrics": {
-        "member_count": 5,
-        "skill_averages": {
-          "programming": 1.6,
-          "infra_db": 1.2,
-          "design": 3.4,
-          "ai": 4.0,
-          "english": 3.8
+      "strategic_metrics": {
+        "trl": 2.47,
+        "ori": {
+          "score": 21.8,
+          "level": "LOW",
+          "components": {
+            "logistic": 8.0,
+            "collab": 62.0,
+            "structural": 0.0
+          }
         },
-        "role_distribution": {
-          "backend": 1,
-          "ux_ui": 2,
-          "pm_leadership": 2
+        "role_gaps": [],
+        "member_count": 5,
+        "has_senior_dev": true
+      },
+      "qualitative_profile": {
+        "academic_origin": "Universidad Pública",
+        "learning_style": "Tradicional (Académico)",
+        "territorial_index": "Distribuido",
+        "autonomy_score": 1.58,
+        "cohesion_score": 3.4,
+        "attendance_score": 0.65,
+        "all_institutions": [
+          "Universidad Pública",
+          "Centro Tecnológico (INATEC)",
+          "Universidad Privada"
+        ],
+        "all_departments": [
+          "Managua",
+          "León"
+        ]
+      },
+      "averages": {
+        "skill_programming": 1.6,
+        "skill_infra_db": 1.2,
+        "skill_design": 3.4,
+        "skill_ai": 4.0,
+        "english_level": 3.8
+      },
+      "dispersion": {
+        "skill_programming": {
+          "floor": 0,
+          "std": 2.06
+        },
+        "skill_infra_db": {
+          "floor": 0,
+          "std": 1.47
+        },
+        "skill_design": {
+          "floor": 0,
+          "std": 1.85
+        },
+        "skill_ai": {
+          "floor": 3,
+          "std": 0.89
+        },
+        "english_level": {
+          "floor": 1,
+          "std": 1.6
         }
+      },
+      "role_distribution": {
+        "backend": 1,
+        "ux_ui": 2,
+        "pm_leadership": 2
       },
       "members": [
         {
           "id": 4,
           "full_name": "Andrés Francisco Sánchez Santana",
           "email": "a3235633@gmail.com",
-          "timestamp": "23/5/2026 15:15:40",
-          "context": {
-            "residence_dept": "León",
-            "study_center_type": "Universidad Privada",
-            "career_area": "tech_systems",
-            "main_role": "backend",
-            "has_equipment": "Tengo PC/Laptop, pero el internet es limitado/inestable."
-          },
+          "role": "backend",
+          "dept": "León",
+          "career": "tech_systems",
+          "institution": "Universidad Privada",
           "skills": {
             "programming": 5,
             "infra_db": 4,
             "design": 0,
             "ai": 3,
             "english": 5
+          },
+          "flags": {
+            "no_equipment": false,
+            "low_time": false
           },
           "qualitative": {
             "learning_method": "🎥 Autodidacta vía YouTube / Tutoriales web.",
@@ -3358,31 +4275,28 @@
             "collab_experience": "Muy poco, casi siempre trabajo solo o con gente de mi misma carrera.",
             "curiosity_tech": "🤖 Robótica, Internet de las Cosas (IoT) o Electrónica básica.",
             "weekly_hours": "Entre 5 y 10 horas a la semana.",
-            "attendance_score": 0.87,
-            "attendance_sessions": 4,
-            "attendance_total_sessions": 23,
-            "attendance_sessions_general": 3,
-            "attendance_sessions_11": 1
+            "autonomy_score": 3.45,
+            "attendance_score": 0.65
           }
         },
         {
           "id": 16,
           "full_name": "José Manuel Obregón Alonzo",
           "email": "josealonzo121@gmail.com",
-          "timestamp": "23/5/2026 15:22:32",
-          "context": {
-            "residence_dept": "Managua",
-            "study_center_type": "Universidad Pública",
-            "career_area": "business",
-            "main_role": "ux_ui",
-            "has_equipment": "Sí, tengo PC/Laptop y buen internet."
-          },
+          "role": "ux_ui",
+          "dept": "Managua",
+          "career": "business",
+          "institution": "Universidad Pública",
           "skills": {
             "programming": 3,
             "infra_db": 1,
             "design": 5,
             "ai": 5,
             "english": 5
+          },
+          "flags": {
+            "no_equipment": false,
+            "low_time": false
           },
           "qualitative": {
             "learning_method": "🏫 Clases formales en mi Universidad / Centro Técnico.",
@@ -3392,31 +4306,28 @@
             "collab_experience": "Sí, estoy acostumbrado a equipos multidisciplinarios.",
             "curiosity_tech": "🎮 Desarrollo de Videojuegos (Unity, Unreal).",
             "weekly_hours": "Entre 10 y 20 horas a la semana.",
-            "attendance_score": 0.22,
-            "attendance_sessions": 1,
-            "attendance_total_sessions": 23,
-            "attendance_sessions_general": 1,
-            "attendance_sessions_11": 0
+            "autonomy_score": 3.8,
+            "attendance_score": 0.65
           }
         },
         {
           "id": 34,
           "full_name": "Melissa Jeanine Gaitán López ",
           "email": "meligaitan11@gmail.com",
-          "timestamp": "25/5/2026 10:07:57",
-          "context": {
-            "residence_dept": "Managua",
-            "study_center_type": "Centro Tecnológico (INATEC)",
-            "career_area": "engineering",
-            "main_role": "ux_ui",
-            "has_equipment": "Sí, tengo PC/Laptop y buen internet."
-          },
+          "role": "ux_ui",
+          "dept": "Managua",
+          "career": "engineering",
+          "institution": "Centro Tecnológico (INATEC)",
           "skills": {
             "programming": 0,
             "infra_db": 0,
             "design": 5,
             "ai": 3,
             "english": 1
+          },
+          "flags": {
+            "no_equipment": false,
+            "low_time": false
           },
           "qualitative": {
             "learning_method": "🤖 Consultando a Inteligencias Artificiales (ChatGPT, etc).",
@@ -3426,31 +4337,28 @@
             "collab_experience": "Sí, estoy acostumbrado a equipos multidisciplinarios.",
             "curiosity_tech": "🤖 Robótica, Internet de las Cosas (IoT) o Electrónica básica.",
             "weekly_hours": "Entre 5 y 10 horas a la semana.",
-            "attendance_score": 0.0,
-            "attendance_sessions": 0,
-            "attendance_total_sessions": 23,
-            "attendance_sessions_general": 0,
-            "attendance_sessions_11": 0
+            "autonomy_score": 0.15,
+            "attendance_score": 0.65
           }
         },
         {
           "id": 52,
           "full_name": "Jiréh Saraí González Salmerón ",
           "email": "gonzalezjireh9@gmail.com",
-          "timestamp": "26/5/2026 16:44:49",
-          "context": {
-            "residence_dept": "Managua",
-            "study_center_type": "Universidad Privada",
-            "career_area": "business",
-            "main_role": "pm_leadership",
-            "has_equipment": "Sí, tengo PC/Laptop y buen internet."
-          },
+          "role": "pm_leadership",
+          "dept": "Managua",
+          "career": "business",
+          "institution": "Universidad Privada",
           "skills": {
             "programming": 0,
             "infra_db": 1,
             "design": 4,
             "ai": 4,
             "english": 3
+          },
+          "flags": {
+            "no_equipment": false,
+            "low_time": true
           },
           "qualitative": {
             "learning_method": "🏫 Clases formales en mi Universidad / Centro Técnico.",
@@ -3460,31 +4368,28 @@
             "collab_experience": "No, nunca.",
             "curiosity_tech": "📊 Análisis de Datos Avanzado.",
             "weekly_hours": "Menos de 5 horas a la semana.",
-            "attendance_score": 0.22,
-            "attendance_sessions": 1,
-            "attendance_total_sessions": 23,
-            "attendance_sessions_general": 1,
-            "attendance_sessions_11": 0
+            "autonomy_score": 0.35,
+            "attendance_score": 0.65
           }
         },
         {
           "id": 54,
           "full_name": "Katherine del Carmen Espinoza Hernandez ",
           "email": "kespinozah@uamv.edu.ni",
-          "timestamp": "27/5/2026 16:33:22",
-          "context": {
-            "residence_dept": "Managua",
-            "study_center_type": "Universidad Privada",
-            "career_area": "business",
-            "main_role": "pm_leadership",
-            "has_equipment": "Sí, tengo PC/Laptop y buen internet."
-          },
+          "role": "pm_leadership",
+          "dept": "Managua",
+          "career": "business",
+          "institution": "Universidad Privada",
           "skills": {
             "programming": 0,
             "infra_db": 0,
             "design": 3,
             "ai": 5,
             "english": 5
+          },
+          "flags": {
+            "no_equipment": false,
+            "low_time": false
           },
           "qualitative": {
             "learning_method": "🏫 Clases formales en mi Universidad / Centro Técnico.",
@@ -3494,17 +4399,11 @@
             "collab_experience": "Sí, estoy acostumbrado a equipos multidisciplinarios.",
             "curiosity_tech": "📊 Análisis de Datos Avanzado.",
             "weekly_hours": "Entre 5 y 10 horas a la semana.",
-            "attendance_score": 0.22,
-            "attendance_sessions": 1,
-            "attendance_total_sessions": 23,
-            "attendance_sessions_general": 1,
-            "attendance_sessions_11": 0
+            "autonomy_score": 0.15,
+            "attendance_score": 0.65
           }
         }
-      ],
-      "qualitative_profile": {
-        "attendance_score": 0.31
-      }
+      ]
     }
   ]
 }

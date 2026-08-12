@@ -13,7 +13,7 @@ import glob
 def get_attendance_data():
     """Escanea los CSV de asistencia en todo el espacio de trabajo y retorna un mapa de equipo -> sesiones asistidas."""
     # Buscar todos los CSVs de asistencia en la raíz del CI
-    ci_root = "/home/cristian/Documentos/UNI/CI"
+    ci_root = "/home/cristian/UNI/CI"
     files = glob.glob(f"{ci_root}/**/*.csv", recursive=True)
     
     attendance_map = {} # team_id -> set of sessions
